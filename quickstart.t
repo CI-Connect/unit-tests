@@ -36,10 +36,12 @@ Copy some extra utilities to the unit test directory
 
 run the tutorial with condor:
   $ ./run_and_wait.sh tutorial01
+  All jobs done.
 
 run the second tutorial with condor:
   $ ./run_and_wait.sh tutorial02
+  All jobs done.
 
 run the third and final tutorial:
-  $ ./run_and_wait.sh tutorial3
+$ ./run_and_wait.sh tutorial3
 
