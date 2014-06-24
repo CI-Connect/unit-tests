@@ -31,6 +31,7 @@ run short.sh with parameters:
 
 condor jobs
 -----------
+
 Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
@@ -43,5 +44,6 @@ run the second tutorial with condor:
   All jobs done.
 
 run the third and final tutorial:
-$ ./run_and_wait.sh tutorial3
+  $ ./run_and_wait.sh tutorial03
+  All jobs done.
 
