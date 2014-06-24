@@ -1,12 +1,10 @@
+prologue
+--------
+  $ cp -a ${TESTDIR}/quickstart .
+  $ cd quickstart
+
 short.sh
 --------
-
-Ensure git repo is sane:  
-  $ git clone https://github.com/OSGConnect/tutorial-quickstart
-  Cloning into 'tutorial-quickstart'...
-
-change to job dir:
-  $ cd tutorial-quickstart
 
 run short.sh without parameters:
   $ ./short.sh 
