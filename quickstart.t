@@ -1,7 +1,7 @@
 prologue
 --------
-  $ cp -a ${TESTDIR}/quickstart .
-  $ cd quickstart
+  $ cp -a ${TESTDIR}/tutorial-quickstart .
+  $ cd tutorial-quickstart
 
 short.sh
 --------
