@@ -25,16 +25,6 @@ Software setup
 
 example code
 ------------
-make sure octave file works by checking part of output
-  $ octave ex1_matrix.octave | tail -43 | head -5
-  warning: X11 DISPLAY environment variable not set
-  warning: readline is not linked, so history control is not available
-  ans =
-  
-     *.* ? *.*i (glob) 
-     *.* ? *.*i (glob)
-     *.* ? *.*i (glob)
-
   $ chmod +x octave-wrapper.sh
 
 wrapper script
@@ -43,15 +33,6 @@ ensure fail state fails
   $ ./octave-wrapper.sh 
   Usage: octave-wrapper.sh file.octave
   [1]
-ensure we can still run the code via the wrapper
-  $ ./octave-wrapper.sh ex1_matrix.octave | tail -43 | head -5
-  warning: X11 DISPLAY environment variable not set
-  warning: readline is not linked, so history control is not available
-  ans =
-
-     *.* ? *.*i (glob)
-     *.* ? *.*i (glob)
-     *.* ? *.*i (glob)
 
 HTCondor job
 ------------
