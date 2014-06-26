@@ -42,6 +42,7 @@ wrapper script
 ensure fail state fails
   $ ./octave-wrapper.sh 
   Usage: octave-wrapper.sh file.octave
+  [1]
 ensure we can still run the code via the wrapper
   $ ./octave-wrapper.sh ex1_matrix.octave | tail -43 | head -5
   warning: X11 DISPLAY environment variable not set
