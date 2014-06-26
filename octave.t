@@ -9,7 +9,7 @@ Software setup
   $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/sw/octave/el5/x86_64/default/setup.sh
   $ octave --version
   GNU Octave, version * (glob)
-  Copyright (C) 201* John W. Eaton and others. (glob)
+  Copyright (C) 201* (glob)
   This is free software; see the source code for copying conditions.
   There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
   FITNESS FOR A PARTICULAR PURPOSE.
