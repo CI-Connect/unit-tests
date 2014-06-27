@@ -5,7 +5,7 @@ Prologue
 
 ROOT
 ----
-  $ source environment.sh | tail -14 | head -3
+  $ source ${TESTDIR}/tutorial-root/environment.sh | tail -14 | head -3
   Setting up ROOT version * (glob)
     Current GCC version:* (glob)
     Python version* (glob)
