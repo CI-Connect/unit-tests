@@ -95,8 +95,8 @@ p1.swift
 HTCondor job
 ------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+$ cp ${TESTDIR}/run_and_wait.sh .
 
 run transfer.submit through condor
-  $ ./run_and_wait.sh transfer.submit
-  All jobs done.
+$ ./run_and_wait.sh transfer.submit
+All jobs done.
