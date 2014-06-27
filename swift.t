@@ -2,7 +2,7 @@ Prologue
 --------
   $ cp -a ${TESTDIR}/tutorial-swift .
   $ cd tutorial-swift
-  $ source setup.sh
+  $ source ${TESTDIR}/tutorial-swift/setup.sh
   Using Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -113,15 +113,86 @@ p1.swift
   Final status:*  Finished successfully:1 (glob)
 
   $ cat sim.out
-  ?? (glob)
+  ??? (glob)
 
   $ cd ..
 
-HTCondor job
-------------
-Copy some extra utilities to the unit test directory
-$ cp ${TESTDIR}/run_and_wait.sh .
+p2.swift
+--------
+  $ cd part02
+  $ swift p2.swift
+  Swift * (glob)
+  
+  RunID:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* Selecting site:* Stage out:* Finished successfully:1 (glob)
+  Progress:  time:* Selecting site:* Submitting:* Finished successfully:3 (glob)
+  Progress:  time:* Selecting site:* Submitting:* Finished successfully:5 (glob)
+  Progress:  time:* Selecting site:* Submitting:* Finished successfully:7 (glob)
+  Progress:  time:* Submitting:*  Finished successfully:9 (glob)
+  Final status:* Finished successfully:10 (glob)
 
-run transfer.submit through condor
-$ ./run_and_wait.sh transfer.submit
-All jobs done.
+  $ ls output/
+  sim_0.out
+  sim_1.out
+  sim_2.out
+  sim_3.out
+  sim_4.out
+  sim_5.out
+  sim_6.out
+  sim_7.out
+  sim_8.out
+  sim_9.out
+
+  $ cd ..
+
+p3.swift
+--------
+  $ cd part03
+
+  $ swift p3.swift
+  Swift * (glob)
+  
+  RunID:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* Active:*  Stage out:* (glob)
+  Final status:* Finished successfully:11 (glob)
+
+  $ cat output/average.out
+  ??? (glob)
+
+  $ cd ..
+
+p4.swift
+--------
+  $ cd part04
+
+  $ swift p4.swift | tail -1
+  Final status:* Finished successfully:* (glob)
+
+  $ cat output/average.out
+  ??? (glob)
+ 
+  $ cd ..
+
+p5.swift
+--------
+  $ cd part05
+  $ swift p5.swift | tail -1
+  Final status:* Finished successfully:* (glob)
+
+  $ cat output/stats.out
+  ??????? (glob)
+
+  $ cd ..
+
+p6.swift
+--------
+  $ cd part06
+  $ swift p6.swift | tail -1
+  Final status:* Finished successfully:* (glob)
+
+  $ cat output/stats.out
+  ??????? (glob)
+
+  $ cd ..
