@@ -6,12 +6,12 @@ Prologue
   Using Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
-  Saving * (glob) 
+  Saving * (glob)
 
 simulate.sh
 -----------
   $ ./app/simulate.sh 2>log
-         * (glob)
+       * (glob)
   $ head -4 log
   
   Called as: * (glob)
@@ -32,7 +32,7 @@ simulate.sh
 stats.sh
 --------
   $ ls ./app/f*
-  f1 f2 f3 4
+  ./app/f1 ./app/f2 ./app/f3 ./app/f4
 
   $ cat ./app/f*
   25
@@ -40,7 +40,7 @@ stats.sh
   40
   75
 
-  $ ./app/stats.sh f*
+  $ ./app/stats.sh ./app/f*
   50
 
   Called as: * (glob) 
