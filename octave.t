@@ -56,6 +56,7 @@ ensure we can still run the code via the wrapper
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
+  * (glob)
 
 HTCondor job
 ------------
