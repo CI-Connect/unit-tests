@@ -2,7 +2,7 @@ Prologue
 --------
   $ cp -a ${TESTDIR}/tutorial-swift .
   $ cd tutorial-swift
-  $ source ${TESTDIR}/tutorial-swift/setup.sh
+  $ source setup.sh
   Using Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -14,9 +14,9 @@ simulate.sh
        * (glob)
   $ head -4 log
   
-  Called as: * (glob)
-  Start time: * (glob)
-  Running on node: * (glob)
+  Called as:* (glob)
+  Start time:* (glob)
+  Running on node:* (glob)
 
   $ ./app/simulate.sh -n 4 -r 1000000 2>log
   * (glob)
@@ -32,9 +32,9 @@ simulate.sh
 stats.sh
 --------
   $ ls ./app/f*
-  ./app/f1 
-  ./app/f2 
-  ./app/f3 
+  ./app/f1
+  ./app/f2
+  ./app/f3
   ./app/f4
 
   $ cat ./app/f*
@@ -46,7 +46,7 @@ stats.sh
   $ ./app/stats.sh ./app/f*
   50
   
-  Called as: * (glob) 
+  Called as:* (glob) 
   
   Start time: * (glob)
   Running on node: * (glob)
@@ -76,7 +76,7 @@ stats.sh
   JENKINS_HOME=* (glob)
   JENKINS_SERVER_COOKIE=* (glob)
   JENKINS_URL=http://build.ci-connect.net:8080/
-  JOB-NAME=OSG_Connect_Swift
+  JOB_NAME=OSG_Connect_Swift
   JOB_URL=http://build.ci-connect.net:8080/job/OSG_Connect_Swift/
   LANG=* (glob)
   LANGUAGE=* (glob)
