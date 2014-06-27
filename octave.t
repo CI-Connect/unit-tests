@@ -25,9 +25,7 @@ Software setup
   * (glob)
   * (glob)
   * (glob)
-  * (glob)
-  * (glob)
-     
+
 example code
 ------------
 make sure octave file works by checking part of output
@@ -39,10 +37,7 @@ make sure octave file works by checking part of output
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
-  
-  
-  
-
+  * (glob)
   $ chmod +x octave-wrapper.sh
 
 wrapper script
