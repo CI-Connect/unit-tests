@@ -37,9 +37,10 @@ get NumPy via cvmfs
     File "./SDE.py", line 14, in <module>
       Temp=float(argv[1])       # configurational Temperature
   IndexError: list index out of range
+  [1]
 
   $ ./SDE.py 0.25 500000
-  Temp=0.250000	   Trans=*, Elapsed time:* (glob)
+  Temp=0.250000*Trans=*, Elapsed time:* (glob)
 
   $ ./SDE-2.py
   Traceback (most recent call last):
