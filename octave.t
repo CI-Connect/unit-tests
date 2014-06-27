@@ -22,9 +22,7 @@ Software setup
   For more information, visit * (glob)
   
   Read http://www.octave.org/bugs.html to learn how to submit bug reports.
-  
-  
-  
+
 example code
 ------------
 make sure octave file works by checking part of output
@@ -36,7 +34,7 @@ make sure octave file works by checking part of output
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
-  
+
   $ chmod +x octave-wrapper.sh
 
 wrapper script
@@ -55,7 +53,6 @@ ensure we can still run the code via the wrapper
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
      *.* ? *.*i (glob)
-  
 
 
 HTCondor job
