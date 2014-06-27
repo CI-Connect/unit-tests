@@ -2,7 +2,7 @@ Prologue
 --------
   $ cp -a ${TESTDIR}/tutorial-swift .
   $ cd tutorial-swift
-  $ source setup.sh
+  $ source ${TESTDIR}/tutorial-swift/setup.sh
   Using Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -32,7 +32,10 @@ simulate.sh
 stats.sh
 --------
   $ ls ./app/f*
-  ./app/f1 ./app/f2 ./app/f3 ./app/f4
+  ./app/f1 
+  ./app/f2 
+  ./app/f3 
+  ./app/f4
 
   $ cat ./app/f*
   25
@@ -42,39 +45,61 @@ stats.sh
 
   $ ./app/stats.sh ./app/f*
   50
-
+  
   Called as: * (glob) 
-
+  
   Start time: * (glob)
   Running on node: * (glob)
   Running as user: * (glob)
-
+  
   Environment:
-
-  COBBLER_SERVER=* (glob)
-  CVS_RSH=* (glob)
-  G_BROKEN_FILENAMES=* (glob)
-  HISTCONTROL=* (glob)
-  HISTSIZE=* (glob)
+  
+  BUILD_DISPLAY_NAME=* (glob)
+  BUILD_ID=* (glob)
+  BUILD_NUMBER=* (glob)
+  BUILD_TAG=* (glob)
+  BUILD_URL=* (glob)
+  CDPATH=* (glob)
+  COLUMNS=* (glob)
+  CRAMTMP=* (glob)
+  EXECUTOR_NUMBER=* (glob)
+  GIT_BRANCH=* (glob)
+  GIT_COMMIT=* (glob)
+  GIT_PREVIOUS_COMMIT=* (glob)
+  GIT_URL=https://github.com/OSGConnect/tutorial-swift
+  GREP_OPTIONS=* (glob)
   HOME=* (glob)
-  HOSTNAME=* (glob)
+  HUDSON_COOKIE=* (glob)
+  HUDSON_HOME=* (glob)
+  HUDSON_SERVER_COOKIE=* (glob)
+  HUDSON_URL=http://build.ci-connect.net:8080/
+  JENKINS_HOME=* (glob)
+  JENKINS_SERVER_COOKIE=* (glob)
+  JENKINS_URL=http://build.ci-connect.net:8080/
+  JOB-NAME=OSG_Connect_Swift
+  JOB_URL=http://build.ci-connect.net:8080/job/OSG_Connect_Swift/
   LANG=* (glob)
-  LESSOPEN=* (glob)
-  LOGNAME=* (glob)
-  LS_COLORS=* (glob)
-  MAIL=* (glob)
+  LANGUAGE=* (glob)
+  LC_ALL=* (glob)
+  LD_LIBRARY_PATH=* (glob)
+  LOGNAME=jenkins
+  NLSPATH=* (glob)
+  NODE_LABELS=* (glob)
+  NODE_NAME=* (glob)
   PATH=* (glob)
   PWD=* (glob)
-  QTDIR=* (glob)
-  QTINC=* (glob)
-  QTLIB=* (glob)
   SHELL=* (glob)
   SHLVL=* (glob)
-  SSH_CLIENT=* (glob)
-  SSH_CONNECTION=* (glob)
-  SSH_TTY=* (glob)
+  TEMP=* (glob)
   TERM=* (glob)
-  USER=* (glob)
+  TESTDIR=* (glob)
+  TESTFILE=swift.t
+  TMP=* (glob)
+  TMPDIR=* (glob)
+  TZ=* (glob)
+  USER=jenkins
+  WORKSPACE=* (glob)
+  XFILESEARCHPATH=* (glob)
   _=* (glob)
 
 p1.swift
