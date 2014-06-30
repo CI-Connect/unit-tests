@@ -1,6 +1,7 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-oasis_parrot .
+  $ cd ${TESTDIR}
+  $ cp -a ${TESTDIR}/C\:\\Jenkins\\workspace\\OSG_Connect_Oasis_Parrot\\tutorial-oasis-parrot ./tutorial-oasis_parrot
   $ cd tutorial-oasis_parrot
 
 myapp.sh 
@@ -17,21 +18,25 @@ creating a tarball
 
 copy tarball to stash
 ---------------------
-TODO
-cp oasis_app.tar.gz ~/data/public/
-chmod 644 ~/data/public/oasis_app.tar.gz
+
+  $ cp oasis_app.tar.gz ~/data/public/
+  $ chmod 644 ~/data/public/oasis_app.tar.gz
 
 make run_job.py wrapper
 -----------------------
-TODO
-sed 's/username/SLAVEUSER/' oasis.ini > temp.ini
-rm oasis.ini
-mv temp.ini oasis.ini
 
-skeleton_key -c oasis.ini
+  $ sed 's/username/antonyu/' oasis.ini > temp.ini
+  $ rm oasis.ini
+  $ mv temp.ini oasis.ini
 
-test wrapper:
-python run_job.py
+  $ skeleton_key -c oasis.ini
+
+test wrapper
+------------
+  $ python run_job.py | tail -2
+  *parrot_run* (glob)
+  Finishing script at:
+  * (glob)
 
 HTCondor job
 ------------
@@ -39,8 +44,8 @@ Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
 run oasis.submit through condor
-$ ./run_and_wait.sh oasis.submit
-All jobs done.
+  $ ./run_and_wait.sh oasis.submit
+  All jobs done.
 
 verify output
 cat logs/oasis.0.out | tail -2
