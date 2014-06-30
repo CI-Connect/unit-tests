@@ -1,7 +1,6 @@
 Prologue
 --------
-  $ pwd
-  /home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests
+  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
   $ cp -a tutorial-swift .
   $ cd tutorial-swift
   $ source setup.sh
