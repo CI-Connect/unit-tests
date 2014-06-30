@@ -6,15 +6,15 @@ Prologue
 ROOT
 ----
   $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
+  * (glob)
   Setting up ROOT version * (glob)
-  Setting up gcc version* (glob)
-    Python version* (glob)
+    Current GCC version:* (glob) 
 
 TODO: test if root works; root -q [filename] tests command line scripts, quits
 
 Makefile
 --------
-  $ make inspector
+  $ make
   g++ -O2 -Wall -fPIC -pthread -m64 -I/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/include   -c -o inspector.o inspector.C
   g++ -O2 -m64 inspector.o -L/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -lTreePlayer -o inspector
   inspector done
@@ -50,6 +50,3 @@ run root.submit with condor
 #  $ ./run_and_wait.sh root.submit
 #  All jobs done.
 
-verify output
-#  $ cat log/out.*.0
-#  0
