@@ -3,7 +3,7 @@ Prologue
   $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
   $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift ./tutorial-swift
   $ cd tutorial-swift
-  $ source setup.sh
+  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
   ?sing Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -47,7 +47,7 @@ stats.sh
   $ ./app/stats.sh ./app/f*
   50
   
-  Called as* (glob) 
+  Called as* (glob)
   
   Start time: * (glob)
   Running on node: * (glob)
