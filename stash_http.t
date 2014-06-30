@@ -17,7 +17,9 @@ Accessing files using wget
   $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Stash_HTTP/unit-tests/tutorial-stash_http
   $ mkdir tmp
   $ cd tmp
-  $ wget --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file
+  $ wget --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file | tail -2 | head -1
+  * 'test_file' saved * (glob)
+
   $ cd ..
 
 HTcondor jobs
