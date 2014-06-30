@@ -1,7 +1,7 @@
 Prologue
 --------
   $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
-  $ cp -a tutorial-swift .
+  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift .
   $ cd tutorial-swift
   $ source setup.sh
   ?sing Swift from *, and adding to PATH (glob)
@@ -47,7 +47,7 @@ stats.sh
   $ ./app/stats.sh ./app/f*
   50
   
-  Called as:* (glob) 
+  Called as* (glob) 
   
   Start time: * (glob)
   Running on node: * (glob)
@@ -61,15 +61,21 @@ stats.sh
   BUILD_TAG=* (glob)
   BUILD_URL=* (glob)
   CDPATH=* (glob)
+  COBBLER_SERVER=* (glob)
   COLUMNS=* (glob)
   CRAMTMP=* (glob)
-  EXECUTOR_NUMBER=* (glob)
+  CVS_RSH=ssh
+  EXECUTOR_NUMBER=? (glob)
   GIT_BRANCH=* (glob)
   GIT_COMMIT=* (glob)
   GIT_PREVIOUS_COMMIT=* (glob)
   GIT_URL=https://github.com/OSGConnect/tutorial-swift
   GREP_OPTIONS=* (glob)
+  G_BROKEN_FILENAMES=* (glob)
+  HISTCONTROL=* (glob)
+  HISTSIZE=* (glob)
   HOME=* (glob)
+  HOSTNAME=* (glob)
   HUDSON_COOKIE=* (glob)
   HUDSON_HOME=* (glob)
   HUDSON_SERVER_COOKIE=* (glob)
@@ -83,14 +89,23 @@ stats.sh
   LANGUAGE=* (glob)
   LC_ALL=* (glob)
   LD_LIBRARY_PATH=* (glob)
-  LOGNAME=jenkins
+  LESSOPEN=* (glob)
+  LOGNAME=* (glob)
+  LS_COLORS=* (glob)
+  MAIL=* (glob)
   NLSPATH=* (glob)
   NODE_LABELS=* (glob)
   NODE_NAME=* (glob)
   PATH=* (glob)
   PWD=* (glob)
+  QTDIR=* (glob)
+  QTINC=* (glob)
+  QTLIB=* (glob)
   SHELL=* (glob)
   SHLVL=* (glob)
+  SSH_CLIENT=* (glob)
+  SSH_CONNECTION=* (glob)
+  SSH_TTY=* (glob)
   TEMP=* (glob)
   TERM=* (glob)
   TESTDIR=* (glob)
@@ -98,7 +113,7 @@ stats.sh
   TMP=* (glob)
   TMPDIR=* (glob)
   TZ=* (glob)
-  USER=jenkins
+  USER=* (glob)
   WORKSPACE=* (glob)
   XFILESEARCHPATH=* (glob)
   _=* (glob)
@@ -108,7 +123,7 @@ p1.swift
   $ cd part01
   $ swift p1.swift
   Swift * (glob)
-
+  
   RunID: * (glob)
   Progress:*  time:* (glob)
   Final status:*  Finished successfully:1 (glob)
