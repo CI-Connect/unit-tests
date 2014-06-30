@@ -1,7 +1,7 @@
 Prologue
 --------
-  $ cp -a C* .
-  $ cd C*
+  $ cp -a tutorial-swift .
+  $ cd tutorial-swift
   $ source setup.sh
   ?sing Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
