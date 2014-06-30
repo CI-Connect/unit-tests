@@ -1,11 +1,12 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-root .
+  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests
+  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Root\\tutorial-root ./tutorial-root
   $ cd tutorial-root
 
 ROOT
 ----
-  $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
+  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-root/environment.sh | tail -13 | head -3
   * (glob)
   Setting up ROOT version * (glob)
   *Current GCC version:* (glob) 
@@ -44,7 +45,7 @@ do the same for root.submit for later
 HTCondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+#  $ cp ${TESTDIR}/run_and_wait.sh .
 
 run root.submit with condor
 #  $ ./run_and_wait.sh root.submit
