@@ -18,6 +18,7 @@ Accessing files using wget
   $ mkdir tmp
   $ cd tmp
   $ wget --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file
+  $ cd ..
 
 HTcondor jobs
 -------------
@@ -25,5 +26,5 @@ Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
 run application.submit with condor
-  $ ./run_and_wait.sh application.submit
+  $ ./run_and_wait.sh application/application.submit
   All jobs done.
