@@ -25,6 +25,11 @@ verify file received
 
   $ cd ..
 
+replace username in app_script.sh
+  $ sed 's/username/antonyu/' application/app_script.sh > temp.sh 
+  $ rm application/app_script.sh 
+  $ mv temp.sh application/app_script.sh
+
 HTcondor jobs
 -------------
 Copy some extra utilities to the unit test directory
