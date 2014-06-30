@@ -24,11 +24,12 @@ verify file received
   test_file
 
   $ cd ..
+  $ cd application
 
 replace username in app_script.sh
-  $ sed 's/username/antonyu/' application/app_script.sh > temp.sh 
-  $ rm application/app_script.sh 
-  $ mv temp.sh application/app_script.sh
+  $ sed 's/username/antonyu/' app_script.sh > temp.sh 
+  $ rm app_script.sh 
+  $ mv temp.sh app_script.sh
 
 HTcondor jobs
 -------------
@@ -36,5 +37,5 @@ Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
 run application.submit with condor
-  $ ./run_and_wait.sh application/application.submit
+  $ ./run_and_wait.sh application.submit
   All jobs done.
