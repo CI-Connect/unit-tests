@@ -20,7 +20,7 @@ Create tar bundle
 HTCondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ~/C\:\\Jenkins\\workspace\\OSG_Connect_Software/unit-tests/run_and_wait.sh .
+  $ cp ${TESTDIR}/run_and_wait.sh .
 
 run words.submit with condor
   $ ./run_and_wait.sh words.submit
