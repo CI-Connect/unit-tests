@@ -47,9 +47,9 @@ Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
 run root.submit with condor
-  $ ./run_and_wait.sh root.submit
-  All jobs done.
+#  $ ./run_and_wait.sh root.submit
+#  All jobs done.
 
 verify output
-  $ cat log/out.*.0
-  0
+#  $ cat log/out.*.0
+#  0
