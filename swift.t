@@ -165,34 +165,34 @@ p3.swift
 
 p4.swift
 --------
-  $ cd part04
+#  $ cd part04
 
-  $ swift p4.swift | tail -1
-  Final status:* Finished successfully:* (glob)
+#  $ swift p4.swift | tail -1
+#  Final status:* Finished successfully:* (glob)
 
-  $ cat output/average.out
-  ??? (glob)
+#  $ cat output/average.out
+#  ??? (glob)
  
-  $ cd ..
+#  $ cd ..
 
 p5.swift
 --------
-  $ cd part05
-  $ swift p5.swift | tail -1
-  Final status:* Finished successfully:* (glob)
+#  $ cd part05
+#  $ swift p5.swift | tail -1
+#  Final status:* Finished successfully:* (glob)
 
-  $ cat output/stats.out
-  ??????? (glob)
+#  $ cat output/stats.out
+#  ??????? (glob)
 
-  $ cd ..
+#  $ cd ..
 
 p6.swift
 --------
-  $ cd part06
-  $ swift p6.swift | tail -1
-  Final status:* Finished successfully:* (glob)
+#  $ cd part06
+#  $ swift p6.swift | tail -1
+#  Final status:* Finished successfully:* (glob)
 
-  $ cat output/stats.out
-  ??????? (glob)
+#  $ cat output/stats.out
+#  ??????? (glob)
 
-  $ cd ..
+#  $ cd ..
