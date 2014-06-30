@@ -6,7 +6,7 @@ Prologue
 
 ROOT
 ----
-  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-root/environment.sh | tail -13 | head -3
+  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests/tutorial-root/environment.sh | tail -13 | head -3
   * (glob)
   Setting up ROOT version * (glob)
   *Current GCC version:* (glob) 
