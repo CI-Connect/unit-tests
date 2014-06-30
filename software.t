@@ -8,12 +8,12 @@ Create tar bundle
 -----------------
   $ tar cvzf words.tar.gz distribution random_words
   distribution
-  random words
+  random_words
 
   $ mv words.tar.gz ~/data/public/
   $ chmod +r ~/data/public/words.tar.gz
 
-  $ sed 's/marco/antonyu/' words.submit > temp.submit
+  $ sed 's/sthapa/antonyu/' words.submit > temp.submit
   $ rm words.submit
   $ mv temp.submit words.submit
 
