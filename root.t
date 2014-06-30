@@ -21,24 +21,24 @@ TODO: test if root works; root -q [filename] tests command line scripts, quits
 
 inspector
 ---------
-  $ ./inspector ex.root
-  0
+#  $ ./inspector ex.root
+#  0
 
 wrapper.sh
 ----------
 replace ROOT-FILE with example root file name
-  $ sed 's/ROOT-FILE/ex.root/' wrapper.sh > temp.sh 
-  $ rm wrapper.sh 
-  $ mv temp.sh wrapper.sh
+#  $ sed 's/ROOT-FILE/ex.root/' wrapper.sh > temp.sh 
+#  $ rm wrapper.sh 
+#  $ mv temp.sh wrapper.sh
 
 do the same for root.submit for later
-  $ sed 's/ROOT-FILE/ex.root/' root.submit > temp.submit
-  $ rm root.submit
-  $ mv temp.submit root.submit
+#  $ sed 's/ROOT-FILE/ex.root/' root.submit > temp.submit
+#  $ rm root.submit
+#  $ mv temp.submit root.submit
   
-  $ chmod +x wrapper.sh
+#  $ chmod +x wrapper.sh
 
-  $ ./wrapper.sh
+#  $ ./wrapper.sh
   0
 
 HTCondor jobs
