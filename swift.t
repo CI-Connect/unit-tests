@@ -1,8 +1,8 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-swift .
-  $ cd tutorial-swift
-  $ source ${TESTDIR}/tutorial-swift/setup.sh
+  $ cp -a C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift/ .
+  $ cd C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift/
+  $ source setup.sh
   Using Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
