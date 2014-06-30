@@ -1,9 +1,9 @@
 Prologue
 --------
-  $ cp -a C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift/ .
-  $ cd C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift/
+  $ cp -a C* .
+  $ cd C*
   $ source setup.sh
-  Using Swift from *, and adding to PATH (glob)
+  ?sing Swift from *, and adding to PATH (glob)
   Swift version is * (glob)
   Adding * (glob)
   Saving * (glob)
