@@ -1,6 +1,6 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial.root .
+  $ cp -a ${TESTDIR}/tutorial-root .
   $ cd tutorial-root
 
 ROOT
