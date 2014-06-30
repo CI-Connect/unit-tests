@@ -8,7 +8,7 @@ ROOT
   $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
   * (glob)
   Setting up ROOT version * (glob)
-    Current GCC version:* (glob) 
+  *Current GCC version:* (glob) 
 
 TODO: test if root works; root -q [filename] tests command line scripts, quits
 
