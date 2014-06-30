@@ -120,6 +120,8 @@ stats.sh
 
 p1.swift
 --------
+  $ cp app/simulate.sh part01
+
   $ cd part01
 
   $ swift p1.swift
@@ -136,6 +138,7 @@ p1.swift
 
 p2.swift
 --------
+  $ cp app/simulate.py part02
   $ cd part02
 
   $ swift p2.swift
@@ -166,6 +169,7 @@ p2.swift
 
 p3.swift
 --------
+  $ cp apps/stats.sh part03
   $ cd part03
 
   $ swift p3.swift
