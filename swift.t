@@ -122,11 +122,6 @@ p1.swift
 --------
   $ cd part01
 
-change to abs path for simulate.sh in apps
-  $ sed 's/simulate.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/app/simulate.sh' apps > temp 
-  $ rm apps
-  $ mv temp apps
-
   $ swift p1.swift
   Swift * (glob)
   
@@ -142,11 +137,6 @@ change to abs path for simulate.sh in apps
 p2.swift
 --------
   $ cd part02
-
-change to abs path for simulate.py in apps
-  $ sed 's/simulate.py/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\tutorial-swift/app/simulate.py' apps > temp
-  $ rm apps
-  $ mv temp apps
 
   $ swift p2.swift
   Swift * (glob)
@@ -177,18 +167,6 @@ change to abs path for simulate.py in apps
 p3.swift
 --------
   $ cd part03
-
-change to abs path for simulate.sh in apps
-  $ sed 's/simulate.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\tutorial-swift/app/simulate.sh' apps > temp
-  $ rm apps
-  $ mv temp apps
-
-do the same for stats.sh
-  $ sed 's/stats.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\
-tutorial-swift/app/stats.sh' apps > temp
-  $ rm apps
-  $ mv temp apps
-
 
   $ swift p3.swift
   Swift * (glob)
