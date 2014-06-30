@@ -1,15 +1,14 @@
 Prologue
 --------
-  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests
-  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Root\\tutorial-root ./tutorial-root
+  $ cp -a ${TESTDIR}/tutorial.root .
   $ cd tutorial-root
 
 ROOT
 ----
-  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Root/unit-tests/tutorial-root/environment.sh | tail -13 | head -3
+  $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
   * (glob)
   Setting up ROOT version * (glob)
-  *Current GCC version:* (glob) 
+    Current GCC version:* (glob)
 
 TODO: test if root works; root -q [filename] tests command line scripts, quits
 
