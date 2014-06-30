@@ -4,7 +4,7 @@ Prologue
   $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift ./tutorial-swift
   $ cd tutorial-swift
   $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
-  ?sing Swift from *, and adding to PATH (glob)
+  using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
   Saving * (glob)
@@ -121,6 +121,12 @@ stats.sh
 p1.swift
 --------
   $ cd part01
+
+change to abs path for simulate.sh in apps
+  $ sed 's/simulate.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/app/simulate.sh' apps > temp 
+  $ rm apps
+  $ mv temp apps
+
   $ swift p1.swift
   Swift * (glob)
   
@@ -136,6 +142,12 @@ p1.swift
 p2.swift
 --------
   $ cd part02
+
+change to abs path for simulate.py in apps
+  $ sed 's/simulate.py/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\tutorial-swift/app/simulate.py' apps > temp
+  $ rm apps
+  $ mv temp apps
+
   $ swift p2.swift
   Swift * (glob)
   
@@ -165,6 +177,18 @@ p2.swift
 p3.swift
 --------
   $ cd part03
+
+change to abs path for simulate.sh in apps
+  $ sed 's/simulate.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\tutorial-swift/app/simulate.sh' apps > temp
+  $ rm apps
+  $ mv temp apps
+
+do the same for stats.sh
+  $ sed 's/stats.sh/~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/\
+tutorial-swift/app/stats.sh' apps > temp
+  $ rm apps
+  $ mv temp apps
+
 
   $ swift p3.swift
   Swift * (glob)
