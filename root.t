@@ -44,3 +44,6 @@ run root.submit with condor
 #  $ ./run_and_wait.sh root.submit
 #  All jobs done.
 
+  ************************************************************************
+  Setting up ROOT version 5.34.18-x86_64-slc6-gcc47-opt
+    Current GCC version: gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-3)
