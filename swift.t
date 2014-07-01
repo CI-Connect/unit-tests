@@ -7,12 +7,8 @@ Prologue
   using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
-  Saving * (glob) 
-  Swift * (glob)
-
-  RunID: * (glob)
-  Progress:*  time:* (glob)
-  Final status:*  Finished successfully:1 (glob)
+  Saving* (glob) 
+  
 
 simulate.sh
 -----------
@@ -111,35 +107,38 @@ stats.sh
   SSH_CLIENT=* (glob)
   SSH_CONNECTION=* (glob)
   SSH_TTY=* (glob)
+  STY=* (glob)
   TEMP=* (glob)
   TERM=* (glob)
+  TERMCAP=* (glob)
   TESTDIR=* (glob)
   TESTFILE=swift.t
   TMP=* (glob)
   TMPDIR=* (glob)
   TZ=* (glob)
   USER=* (glob)
+  WINDOW=* (glob)
   WORKSPACE=* (glob)
   XFILESEARCHPATH=* (glob)
   _=* (glob)
 
 p1.swift
 --------
-#  $ cp app/simulate.sh part01
+  $ cp app/simulate.sh part01
 
-#  $ cd part01
-
-#  $ swift p1.swift
-#  Swift * (glob)
+  $ cd part01
   
-#  RunID: * (glob)
-#  Progress:*  time:* (glob)
-#  Final status:*  Finished successfully:1 (glob)
+  $ swift p1.swift
+  Swift * (glob)
+  
+  RunID: * (glob)
+  Progress:*  time:* (glob)
+  Final status:*  Finished successfully:1 (glob)
 
-#  $ cat sim.out
-#  ??? (glob)
+  $ cat sim.out
+  ??? (glob)
 
-#  $ cd ..
+  $ cd ..
 
 p2.swift
 --------
