@@ -149,7 +149,6 @@ p1.swift
   $ cp app/simulate.sh part01
 
   $ cd part01
-  $ echo $PATH
   $ export PATH=/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/bin:/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/app:/home/antonyu/osg-swift/bin:/home/antonyu/osg-swift/app:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/xrootd/3.2.7-x86_64-slc6/v3.2.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/python/2.7.3-x86_64-slc6-gcc47/sw/lcg/external/Python/2.7.3/x86_64-slc6-gcc47-opt/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Gcc/gcc472p1_x86_64_slc6/slc6/gcc47/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/usr/local/swift/stable/bin:/home/antonyu/bin:/cvmfs/uc3.uchicago.edu/Wolfram/Mathematica/8.0/Executables
   $ swift p1.swift
   Swift * (glob)
@@ -159,7 +158,7 @@ p1.swift
   Final status:*  Finished successfully:1 (glob)
 
   $ cat sim.out
-  ??? (glob)
+  ?? (glob)
 
   $ cd ..
 
@@ -208,21 +207,21 @@ p3.swift
   Final status:* Finished successfully:11 (glob)
 
   $ cat output/average.out
-  ??? (glob)
+  ?? (glob)
 
   $ cd ..
 
 p4.swift
 --------
-#  $ cd part04
+  $ cd part04
 
-#  $ swift p4.swift | tail -1
-#  Final status:* Finished successfully:* (glob)
+  $ swift p4.swift | tail -1
+  Final status:* Finished successfully:* (glob)
 
-#  $ cat output/average.out
-#  ??? (glob)
+  $ cat output/average.out
+  ?? (glob)
  
-#  $ cd ..
+  $ cd ..
 
 p5.swift
 --------
