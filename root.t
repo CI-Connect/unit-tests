@@ -6,10 +6,9 @@ Prologue
 ROOT
 ----
   $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3 & make
-  > ./inspector ex.root 
+  > ls
   * (glob)
   [2]
-  0
 
 inspector
 ---------
