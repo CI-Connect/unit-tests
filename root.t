@@ -28,17 +28,17 @@ ROOT
   ...Type helpMe for more help
   ...Type printMenu to show this menu
   ************************************************************************
-  Setting up ROOT version 5.34.18-x86_64-slc6-gcc47-opt
-    Current GCC version: gcc (GCC) 4.4.7 20120313 (Red Hat 4.4.7-3)
-  Setting up gcc version gcc472_x86_64_slc6
-    Python version in your path is 2.6.6
-    Python version used to build ROOT is 2.7
-  Setting up Python version 2.7.3-x86_64-slc6-gcc47
-  Setting up XRootD version 3.2.7-x86_64-slc6
+  Setting up ROOT version * (glob)
+    Current GCC version: gcc (GCC) * (glob)
+  Setting up gcc version * (glob)
+    Python version in your path is * (glob)
+    Python version used to build ROOT is * (glob)
+  Setting up Python version * (glob)
+  Setting up XRootD version * (glob)
   ************************************************************************
    Tip for _this_ standalone ROOT and grid (ie prun) submission:
     avoid --athenaTag if you do not need athena
-    use --rootVer=5.34/18 --cmtConfig=x86_64-slc6-gcc47-opt
+    use * (glob)
   ************************************************************************
   g++ -O2 -Wall -fPIC -pthread -m64 -I/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/include   -c -o inspector.o inspector.C
   g++ -O2 -m64 inspector.o -L/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -lTreePlayer -o inspector
@@ -52,26 +52,26 @@ inspector
 wrapper.sh
 ----------
 replace ROOT-FILE with example root file name
-#  $ sed 's/ROOT-FILE/ex.root/' wrapper.sh > temp.sh 
-#  $ rm wrapper.sh 
-#  $ mv temp.sh wrapper.sh
+  $ sed 's/ROOT-FILE/ex.root/' wrapper.sh > temp.sh 
+  $ rm wrapper.sh 
+  $ mv temp.sh wrapper.sh
 
 do the same for root.submit for later
-#  $ sed 's/ROOT-FILE/ex.root/' root.submit > temp.submit
-#  $ rm root.submit
-#  $ mv temp.submit root.submit
+  $ sed 's/ROOT-FILE/ex.root/' root.submit > temp.submit
+  $ rm root.submit
+  $ mv temp.submit root.submit
 
-#  $ chmod +x wrapper.sh
+  $ chmod +x wrapper.sh
 
-#  $ ./wrapper.sh
-#  0
+  $ ./wrapper.sh
+  0
 
 HTCondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-#  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/run_and_wait.sh .
 
 run root.submit with condor
-#  $ ./run_and_wait.sh root.submit
-#  All jobs done.
+  $ ./run_and_wait.sh root.submit
+  All jobs done.
 
