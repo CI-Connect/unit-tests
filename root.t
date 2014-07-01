@@ -3,13 +3,6 @@ Prologue
   $ cp -a ${TESTDIR}/tutorial-root .
   $ cd tutorial-root
 
-Makefile
---------
-  $ make 
-  g++ -O2 -Wall -fPIC -pthread -m64 -I/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/include   -c -o inspector.o inspector.C
-  g++ -O2 -m64 inspector.o -L/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -lTreePlayer -o inspector
-  inspector done
-
 ROOT
 ----
   $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
@@ -17,7 +10,29 @@ ROOT
   Setting up ROOT version * (glob)
     Current GCC version:* (glob)
 
-TODO: test if root works; root -q [filename] tests command line scripts, quits
+  $ root -h
+  Usage: * (glob)
+  Options:
+  -b : run in batch mode without graphics
+  -n : do not execute logon and logoff macros as specified in .rootrc
+  -q : exit after processing command line macro files
+  -l : do not show splash screen
+  -x : exit on exception
+  dir : if dir is a valid directory cd to it before executing
+  
+  -?       : print usage
+  -h       : print usage
+  --help   : print usage
+  -config  : print ./configure options
+  -memstat : run with memory usage monitoring
+  
+
+Makefile
+--------
+  $ make 
+  g++ -O2 -Wall -fPIC -pthread -m64 -I/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/include   -c -o inspector.o inspector.C
+  g++ -O2 -m64 inspector.o -L/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/lib -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic  -lTreePlayer -o inspector
+  inspector done
 
 inspector
 ---------
