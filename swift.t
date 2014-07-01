@@ -8,6 +8,14 @@ Prologue
   Swift version is * (glob)
   Adding * (glob)
   Saving * (glob)
+  > cd part01
+  > swift p1.swift
+  Swift * (glob)
+
+  RunID: * (glob)
+  Progress:*  time:* (glob)
+  Final status:*  Finished successfully:1 (glob)
+  > cd ..
 
 simulate.sh
 -----------
@@ -120,21 +128,21 @@ stats.sh
 
 p1.swift
 --------
-  $ cp app/simulate.sh part01
+#  $ cp app/simulate.sh part01
 
-  $ cd part01
+#  $ cd part01
 
-  $ swift p1.swift
-  Swift * (glob)
+#  $ swift p1.swift
+#  Swift * (glob)
   
-  RunID: * (glob)
-  Progress:*  time:* (glob)
-  Final status:*  Finished successfully:1 (glob)
+#  RunID: * (glob)
+#  Progress:*  time:* (glob)
+#  Final status:*  Finished successfully:1 (glob)
 
-  $ cat sim.out
-  ??? (glob)
+#  $ cat sim.out
+#  ??? (glob)
 
-  $ cd ..
+#  $ cd ..
 
 p2.swift
 --------
