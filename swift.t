@@ -158,7 +158,7 @@ p1.swift
   Final status:*  Finished successfully:1 (glob)
 
   $ cat sim.out
-  ?? (glob)
+        ?? (glob)
 
   $ cd ..
 
@@ -172,11 +172,15 @@ p2.swift
   
   RunID:* (glob)
   Progress:  time:* (glob)
-  Progress:  time:* Selecting site:* Stage out:* Finished successfully:1 (glob)
-  Progress:  time:* Selecting site:* Submitting:* Finished successfully:3 (glob)
-  Progress:  time:* Selecting site:* Submitting:* Finished successfully:5 (glob)
-  Progress:  time:* Selecting site:* Submitting:* Finished successfully:7 (glob)
-  Progress:  time:* Submitting:*  Finished successfully:9 (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
+  Progress:  time:* (glob)
   Final status:* Finished successfully:10 (glob)
 
   $ ls output/
