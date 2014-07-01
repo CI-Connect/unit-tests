@@ -176,11 +176,6 @@ p2.swift
   Progress:  time:* (glob)
   Progress:  time:* (glob)
   Progress:  time:* (glob)
-  Progress:  time:* (glob)
-  Progress:  time:* (glob)
-  Progress:  time:* (glob)
-  Progress:  time:* (glob)
-  Progress:  time:* (glob)
   Final status:* Finished successfully:10 (glob)
 
   $ ls output/
