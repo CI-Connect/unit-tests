@@ -5,7 +5,7 @@ Prologue
 
 ROOT
 ----
-  $ source ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
+  $ source -E ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
   * (glob)
   Setting up ROOT version * (glob)
     Current GCC version:* (glob)
