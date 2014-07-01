@@ -15,6 +15,9 @@ creating a tarball
 ------------------
   $ chmod 755 oasis_app/myapp.sh
   $ tar cvzf oasis_app.tar.gz oasis_app
+  oasis_app/
+  oasis_app/myapp.sh
+  oasis_app/test.R
 
 copy tarball to stash
 ---------------------
