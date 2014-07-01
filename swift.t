@@ -7,8 +7,7 @@ Prologue
   using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
-  Saving* (glob) 
-  
+  Saving * (glob)  
 
 simulate.sh
 -----------
@@ -55,7 +54,30 @@ stats.sh
   Running as user: * (glob)
   
   Environment:
-  
+
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)  
   BUILD_DISPLAY_NAME=* (glob)
   BUILD_ID=* (glob)
   BUILD_NUMBER=* (glob)
@@ -127,7 +149,6 @@ p1.swift
   $ cp app/simulate.sh part01
 
   $ cd part01
-  
   $ swift p1.swift
   Swift * (glob)
   
@@ -173,7 +194,7 @@ p2.swift
 
 p3.swift
 --------
-  $ cp apps/stats.sh part03
+  $ cp app/stats.sh part03
   $ cd part03
 
   $ swift p3.swift
