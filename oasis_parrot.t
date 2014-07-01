@@ -34,16 +34,6 @@ make run_job.py wrapper
 
   $ skeleton_key -c oasis.ini
 
-test wrapper
-------------
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
-  $ palmsdosetup python
-
-  $ python run_job.py | tail -2
-  *parrot_run* (glob)
-  Finishing script at:
-  * (glob)
-
 HTCondor job
 ------------
 Copy some extra utilities to the unit test directory
