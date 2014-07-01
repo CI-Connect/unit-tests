@@ -5,10 +5,18 @@ Prologue
 
 ROOT
 ----
-  $ source -E ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
+  $ export ATLAS_LOCAL_ROOT_BASE=/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase
+  $ source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh | head -2
+  ...Type localSetupAGIS to setup AGIS
+  ...Type localSetupAtlantis to setup Atlantis
+  $ localSetupROOT --skipConfirm | head -2
   * (glob)
   Setting up ROOT version * (glob)
-    Current GCC version:* (glob)
+
+#  $ source -E ${TESTDIR}/tutorial-root/environment.sh | tail -13 | head -3
+#  * (glob)
+#  Setting up ROOT version * (glob)
+#    Current GCC version:* (glob)
 
 Makefile
 --------
