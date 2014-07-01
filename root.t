@@ -10,9 +10,6 @@ ROOT
   Setting up ROOT version * (glob)
     Current GCC version:* (glob)
 
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
-  $ palmsdosetup root
-
   $ root -h
   Usage: * (glob)
   Options:
