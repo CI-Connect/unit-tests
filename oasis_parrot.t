@@ -36,6 +36,9 @@ make run_job.py wrapper
 
 test wrapper
 ------------
+  $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
+  $ palmsdosetup python
+
   $ python run_job.py | tail -2
   *parrot_run* (glob)
   Finishing script at:
@@ -51,6 +54,6 @@ run oasis.submit through condor
   All jobs done.
 
 verify output
-cat logs/oasis.0.out | tail -2
-Finishing script at:* (glob)
-* (glob)
+  cat logs/oasis.0.out | tail -2
+  Finishing script at:* (glob)
+  * (glob)
