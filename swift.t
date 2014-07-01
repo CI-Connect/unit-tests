@@ -3,19 +3,19 @@ Prologue
   $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
   $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift ./tutorial-swift
   $ cd tutorial-swift
-  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
+  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh & cd part01 & swift p1.swift & cd .. 
+  > cd part01
+  > swift p1.swift
+  > cd ..
   using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
-  Saving * (glob)
-  > cd part01
-  > swift p1.swift
+  Saving * (glob) 
   Swift * (glob)
 
   RunID: * (glob)
   Progress:*  time:* (glob)
   Final status:*  Finished successfully:1 (glob)
-  > cd ..
 
 simulate.sh
 -----------
