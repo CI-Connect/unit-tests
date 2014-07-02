@@ -1,6 +1,7 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-pegasus .
+  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Pegasus/unit-tests
+  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Pegasus/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Pegasus\\tutorial-pegasus ./tutorial-pegasus
   $ cd tutorial-pegasus
   $ cd wordfreq-workflow
 
@@ -16,7 +17,7 @@ submit
   $ chmod +x pegasus_wait.sh
 
   $ ./submit | grep pegasus-status | cut -f 8 -d " "
-  $ ./pegasus_wait.sh
+  $ ./pegasus_wait.sh ~/data/workflows/antonyu/pegasus/wordfreq-workflow/*0500
   
   # Workflow summary:
   #   Summary of the workflow execution. It shows total
