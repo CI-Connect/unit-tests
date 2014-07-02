@@ -7,7 +7,7 @@ Prologue
 
 submit
 ------
-  $ sed 's:<profile namespace="condor" key="+ProjectName" >"con-train"</profile>:#commented out +ProjectName line:' submit > temp
+  $ sed 's:<profile namespace="condor" key="+ProjectName" >"con-train"</profile>::' submit > temp
   $ rm submit
   $ mv temp submit
 
