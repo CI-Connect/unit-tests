@@ -56,11 +56,6 @@ replace ROOT-FILE with example root file name
   $ rm wrapper.sh 
   $ mv temp.sh wrapper.sh
 
-do the same for root.submit for later
-  $ sed 's/ROOT-FILE/ex.root/' root.submit > temp.submit
-  $ rm root.submit
-  $ mv temp.submit root.submit
-
   $ chmod +x wrapper.sh
 
   $ ./wrapper.sh
