@@ -229,28 +229,8 @@ comment out InternalHostname as well
   $ rm sites.xml
   $ mv temp.xml sites.xml
 
-  $ swift p4.swift 
-  Swift* (glob)
-  
-  RunID: * (glob)
-  Progress:* time:* (glob)
-  
-  *** Script parameters: nsim=10 steps=3 range=100 
-  
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob) 
+  $ swift p4.swift > output.txt 2>&1
+  $ cat output.txt | tail -1
   Final status:* Finished successfully:* (glob)
 
   $ cat output/sim_0.out
@@ -277,23 +257,8 @@ comment	out InternalHostname as	well
   $ rm sites.xml
   $ mv temp.xml sites.xml
 
-  $ swift p5.swift
-  Swift * (glob)
-  
-  RunID:* (glob)
-  Progress:* time:* (glob)
-  
-  *** Script parameters: nsim=10 steps=1 range=100 count=10
-  
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
+  $ swift p5.swift > output.txt 2>&1
+  $ cat output.txt | tail -1
   Final status:* Finished successfully:* (glob)
 
   $ cat output/stats.out
@@ -320,23 +285,8 @@ comment out InternalHostname as well
   $ rm sites.xml
   $ mv temp.xml sites.xml
 
-  $ swift p6.swift 
-  Swift * (glob)
-  
-  RunID: * (glob)
-  Progress:* time:* (glob)
-  
-  *** Script parameters: nsim=10 range=100 count=10
-  
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
-  Progress:* (glob)
+  $ swift p6.swift > output.txt 2>&1
+  $ cat output.txt | tail -1
   Final status:* Finished successfully:* (glob)
 
   $ cat output/stats.out
