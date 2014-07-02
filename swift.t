@@ -214,6 +214,16 @@ p4.swift
 --------
   $ cd part04
 
+comment out +AccountingGroup in sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
+
+comment out +ProjectName as well
+  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml	sites.xml
+
   $ swift p4.swift | tail -1
   Final status:* Finished successfully:* (glob)
 
@@ -225,6 +235,17 @@ p4.swift
 p5.swift
 --------
   $ cd part05
+
+comment out +AccountingGroup in	sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm				 sites.xml
+  $ mv temp.xml sites.xml
+
+comment out +ProjectName as well
+  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
+
   $ swift p5.swift | tail -1
   Final status:* Finished successfully:* (glob)
 
@@ -236,6 +257,17 @@ p5.swift
 p6.swift
 --------
   $ cd part06
+
+comment	out +AccountingGroup in	sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm				 sites.xml
+  $ mv temp.xml sites.xml
+
+comment		out +ProjectName as well
+  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
+
   $ swift p6.swift | tail -1
   Final status:* Finished successfully:* (glob)
 
