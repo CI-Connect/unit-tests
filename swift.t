@@ -235,15 +235,12 @@ comment out InternalHostname as well
   RunID: * (glob)
   Progress:* time:* (glob)
   
-  *** Script paramters: nsim=10 steps=3 range=100
+  *** Script parameters: nsim=10 steps=3 range=100
   
   Progress:* time:* Submitted:* (glob)
-  Progress:* time:* Submitted:*	(glob)
   Progress:* time:* Submitted:* (glob)
-  Progress:* time:* Stage in:* Submitted:* Active:* (glob)
+  Progress:* time:* Submitted:* (glob)
   Progress:* time:* Submitted:* Active:* Stage out:* (glob)
-  Progress:* time:* Stage in:* Submitted:* Active:* Finished successfully:* (glob)
-  Progress:* time:* Active:* Stage out:* Finished successfully:* (glob)
   Progress:* time:* Active:* Stage out:* Finished successfully:* (glob)
   Final status:* Finished successfully:* (glob)
 
@@ -279,18 +276,16 @@ comment	out InternalHostname as	well
   
   *** Script parameters: nsim=10 steps=1 range=100 count=10
   
-  Progress:* time:* Submitted:*	(glob)
+  Progress:* time:* Submitted:* (glob)
+  Progress:* time:* Submitted:* (glob)
+  Progress:* time:* Submitted:* (glob)
   Progress:* time:* Stage in:* Submitted:* (glob)
-  Progress:* time:* Submitted:* Stage out:* (glob)
+  Progress:* time:* Submitted:* Active:* Stage out:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
+  Progress:* time:* Active:* Stage out:* Finished successfully:* (glob)
+  Progress:* time:* Active:* Finished successfully:* (glob)
   Final status:* Finished successfully:* (glob)
 
   $ cat output/stats.out
@@ -326,9 +321,10 @@ comment out InternalHostname as well
   *** Script parameters: nsim=10 range=100 count=10
   
   Progress:* time:* Submitted:* (glob)
+  Progress:* time:* Submitted:* (glob)
   Progress:* time:* Stage in:* Submitted:* (glob)
   Progress:* time:* Submitted:* Active:* Finished successfully:* (glob)
-  Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
+  Progress:* time:* Submitted:* Active:* Finished successfully:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
   Progress:* time:* Submitted:* Stage out:* Finished successfully:* (glob)
