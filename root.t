@@ -64,9 +64,9 @@ replace ROOT-FILE with example root file name
 HTCondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+#  $ cp ${TESTDIR}/run_and_wait.sh .
 
 run root.submit with condor
-  $ ./run_and_wait.sh root.submit
-  All jobs done.
+#  $ ./run_and_wait.sh root.submit
+#  All jobs done.
 
