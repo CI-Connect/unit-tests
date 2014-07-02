@@ -224,6 +224,11 @@ comment out +ProjectName as well
   $ rm sites.xml
   $ mv temp.xml	sites.xml
 
+comment out InternalHostname as well
+  $ sed 's:<profile namespace="globus"  key="internalHostname">128.135.158.173</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
+
   $ swift p4.swift | tail -1
   Final status:* Finished successfully:* (glob)
 
@@ -234,44 +239,54 @@ comment out +ProjectName as well
 
 p5.swift
 --------
-#  $ cd part05
+  $ cd part05
 
 comment out +AccountingGroup in	sites.xml
-#  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
-#  $ rm				 sites.xml
-#  $ mv temp.xml sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm				 sites.xml
+  $ mv temp.xml sites.xml
 
 comment out +ProjectName as well
-#  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
-#  $ rm sites.xml
-#  $ mv temp.xml sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
 
-#  $ swift p5.swift | tail -1
-#  Final status:* Finished successfully:* (glob)
+comment	out InternalHostname as	well
+  $ sed 's:<profile namespace="globus"  key="internalHostname">128.135.158.173</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
 
-#  $ cat output/stats.out
-#  ??????? (glob)
+  $ swift p5.swift | tail -1
+  Final status:* Finished successfully:* (glob)
 
-#  $ cd ..
+  $ cat output/stats.out
+  ??????? (glob)
+
+  $ cd ..
 
 p6.swift
 --------
-#  $ cd part06
+  $ cd part06
 
 comment	out +AccountingGroup in	sites.xml
-#  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
-#  $ rm				 sites.xml
-#  $ mv temp.xml sites.xml
+  $ sed 's:<profile namespace="globus"  key="condor.+AccountingGroup">"group_friends.{env.USER}"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm				 sites.xml
+  $ mv temp.xml sites.xml
 
-comment		out +ProjectName as well
-#  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
-#  $ rm sites.xml
-#  $ mv temp.xml sites.xml
+comment	out +ProjectName as well
+  $ sed 's:<profile namespace="globus"  key="condor.+ProjectName">"Swift"</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
 
-#  $ swift p6.swift | tail -1
-#  Final status:* Finished successfully:* (glob)
+comment out InternalHostname as well
+  $ sed 's:<profile namespace="globus"  key="internalHostname">128.135.158.173</profile>:<!-- -->:' sites.xml > temp.xml
+  $ rm sites.xml
+  $ mv temp.xml sites.xml
 
-#  $ cat output/stats.out
-#  ??????? (glob)
+  $ swift p6.swift | tail -1
+  Final status:* Finished successfully:* (glob)
+
+  $ cat output/stats.out
+  ??????? (glob)
 
   $ cd ..
