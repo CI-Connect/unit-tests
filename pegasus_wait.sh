@@ -1,23 +1,21 @@
 #!/bin/bash
 
-#if [ "$#" -ne 1 ]
- #  then echo "Usage: ./pegasus_wait.sh [pegasus wfdir]"
-  # exit
-#fi
-
-echo 'pegasus-monitord still running. Please wait for it to complete.' > file1.txt 
+echo 'Summary: 1 DAG total (Success:1)' > file1.txt
 
 WFDIR=$(./submit | grep pegasus-status | cut -f8 -d' ')
 
 c=1
 while [ $c -le 5 ]
 do
-    pegasus-statistics $WFDIR 2> output.txt
+    pegasus-status $WFDIR | tail -1 > output.txt
     if diff file1.txt output.txt >/dev/null;
+       then break
+    elif cat output.txt | grep Running >/dev/null;
        then continue
-    else 
-       break 
+    else
+       echo "Error: Pegasus submission failed"
+       exit
     fi
 done
 
-pegasus-analyzer $WFDIR | tail -4
+pegasus-analyzer $WFDIR | tail -4 
