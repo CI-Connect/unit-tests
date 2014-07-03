@@ -58,10 +58,6 @@ condor jobs
 Copy some extra utilities to the unit test directory
   $ cp ${TESTDIR}/run_and_wait.sh .
 
-run ec2.submit with condor:
-  $ ./run_and_wait.sh ec2.submit
-  All jobs done.
-
 run campus.submit with condor:
   $ ./run_and_wait.sh campus.submit
   All jobs done.
