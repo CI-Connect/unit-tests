@@ -7,10 +7,6 @@ Prologue
 
 submit
 ------
-  $ sed 's:<profile namespace="condor" key="+ProjectName" >"con-train"</profile>::' submit > temp
-  $ rm submit
-  $ mv temp submit
-
   $ chmod +x submit
 
   $ cp ${TESTDIR}/pegasus_wait.sh .
