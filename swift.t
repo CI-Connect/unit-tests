@@ -151,8 +151,8 @@ p1.swift
   $ cd part01
   $ export PATH=/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/bin:/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/app:/home/antonyu/osg-swift/bin:/home/antonyu/osg-swift/app:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/xrootd/3.2.7-x86_64-slc6/v3.2.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/python/2.7.3-x86_64-slc6-gcc47/sw/lcg/external/Python/2.7.3/x86_64-slc6-gcc47-opt/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Gcc/gcc472p1_x86_64_slc6/slc6/gcc47/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/usr/local/swift/stable/bin:/home/antonyu/bin:/cvmfs/uc3.uchicago.edu/Wolfram/Mathematica/8.0/Executables
   $ swift p1.swift > output.txt 2>&1
-  $ cat output.txt | tail -1 
-  Final status:*  Finished successfully:1 (glob)
+  $ grep Final output.txt 
+  Final status:*  Finished successfully:* (glob)
 
   $ cat sim.out
         ?? (glob)
@@ -165,8 +165,8 @@ p2.swift
   $ cd part02
 
   $ swift p2.swift > output.txt 2>&1
-  $ cat output.txt | tail -1
-  Final status:* Finished successfully:10 (glob)
+  $ grep Final output.txt
+  Final status:* Finished successfully:* (glob)
 
   $ ls output/
   sim_0.out
@@ -188,8 +188,8 @@ p3.swift
   $ cd part03
 
   $ swift p3.swift > output.txt 2>&1
-  $ cat output.txt | tail -1
-  Final status:* Finished successfully:11 (glob)
+  $ grep Final output.txt
+  Final status:* Finished successfully:* (glob)
 
   $ cat output/average.out
   ?? (glob)
@@ -216,7 +216,7 @@ comment out InternalHostname as well
   $ mv temp.xml sites.xml
 
   $ swift p4.swift > output.txt 2>&1
-  $ cat output.txt | tail -1
+  $ grep Final output.txt
   Final status:* Finished successfully:* (glob)
 
   $ cat output/sim_0.out
@@ -244,7 +244,7 @@ comment	out InternalHostname as	well
   $ mv temp.xml sites.xml
 
   $ swift p5.swift > output.txt 2>&1
-  $ cat output.txt | tail -1
+  $ grep Final output.txt
   Final status:* Finished successfully:* (glob)
 
   $ cat output/stats.out
@@ -272,7 +272,7 @@ comment out InternalHostname as well
   $ mv temp.xml sites.xml
 
   $ swift p6.swift > output.txt 2>&1
-  $ cat output.txt | tail -1
+  $ grep Final output.txt
   Final status:* Finished successfully:* (glob)
 
   $ cat output/stats.out
