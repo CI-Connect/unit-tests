@@ -16,9 +16,8 @@ submit
   $ cp ${TESTDIR}/pegasus_wait.sh .
   $ chmod +x pegasus_wait.sh
 
-  $ ./submit | grep pegasus-status
-| cut -f 8 -d " "
-  $ ./pegasus_wait.sh /home/antonyu/data/workflows/antonyu/pegasus/wordfreq-workflow/*0500
+#  $ ./submit | grep pegasus-status | cut -f 8 -d " "
+  $ ./pegasus_wait.sh
   
   # Workflow summary:
   #   Summary of the workflow execution. It shows total
