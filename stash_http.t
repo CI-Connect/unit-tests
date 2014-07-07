@@ -1,7 +1,7 @@
 prologue
 --------
   $ cd ~/Jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests
-  $ cd tutorial-stash_http
+  $ cd tutorial-stash-http
 
 Making file accessible on HTTP
 ------------------------------
@@ -13,7 +13,6 @@ Making file accessible on HTTP
 
 Accessing files using wget
 --------------------------
-  $ cd ~/Jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests/tutorial-stash_http
   $ mkdir tmp
   $ cd tmp
   $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file
