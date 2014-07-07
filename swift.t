@@ -1,7 +1,6 @@
 Prologue
 --------
   $ cd ~/Jenkins/workspace/OSG_Connect_Swift/unit-tests
-  $ cp -a ./unit-tests/Jenkins/workspace/OSG_Connect_Swift/tutorial-swift ./tutorial-swift
   $ cd tutorial-swift
   $ source ~/Jenkins/workspace/OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
   using Swift from * (glob)
