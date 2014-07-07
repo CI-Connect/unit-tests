@@ -1,7 +1,7 @@
 Prologue
 --------
-  $ cd ~/Jenkins\\workspace\\OSG_Connect_Pegasus/unit-tests
-  $ cp -a ~/Jenkins\\workspace\\OSG_Connect_Pegasus/unit-tests/Jenkins\\workspace\\OSG_Connect_Pegasus\\tutorial-pegasus ./tutorial-pegasus
+  $ cd ~/Jenkins/workspace/OSG_Connect_Pegasus/unit-tests
+  $ cp -a ~/Jenkins/workspace/OSG_Connect_Pegasus/unit-tests/Jenkins/workspace/OSG_Connect_Pegasus/tutorial-pegasus ./tutorial-pegasus
   $ cd tutorial-pegasus
   $ cd wordfreq-workflow
 
