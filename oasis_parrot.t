@@ -1,7 +1,6 @@
 Prologue
 --------
   $ cd ${TESTDIR}
-  $ cp -a ${TESTDIR}/Jenkins/workspace/OSG_Connect_Oasis_Parrot/tutorial-oasis_parrot ./tutorial-oasis_parrot
   $ cd tutorial-oasis_parrot
 
 myapp.sh 
