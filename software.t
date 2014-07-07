@@ -1,7 +1,7 @@
 Prologue
 --------
-  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Software/unit-tests
-  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Software/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Software\\tutorial-software ./tutorial-software
+  $ cd ~/Jenkins\\workspace\\OSG_Connect_Software/unit-tests
+  $ cp -a ~/Jenkins\\workspace\\OSG_Connect_Software/unit-tests/Jenkins\\workspace\\OSG_Connect_Software\\tutorial-software ./tutorial-software
   $ cd tutorial-software
 
 Create tar bundle

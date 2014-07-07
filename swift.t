@@ -1,9 +1,9 @@
 Prologue
 --------
-  $ cd ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
-  $ cp -a ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/C\:\\Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift ./tutorial-swift
+  $ cd ~/Jenkins\\workspace\\OSG_Connect_Swift/unit-tests
+  $ cp -a ./unit-tests/Jenkins\\workspace\\OSG_Connect_Swift\\tutorial-swift ./tutorial-swift
   $ cd tutorial-swift
-  $ source ~/C\:\\Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
+  $ source ~/Jenkins\\workspace\\OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
   using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -149,7 +149,7 @@ p1.swift
   $ cp app/simulate.sh part01
 
   $ cd part01
-  $ export PATH=/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/bin:/home/antonyu/C:\Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/app:/home/antonyu/osg-swift/bin:/home/antonyu/osg-swift/app:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/xrootd/3.2.7-x86_64-slc6/v3.2.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/python/2.7.3-x86_64-slc6-gcc47/sw/lcg/external/Python/2.7.3/x86_64-slc6-gcc47-opt/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Gcc/gcc472p1_x86_64_slc6/slc6/gcc47/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/usr/local/swift/stable/bin:/home/antonyu/bin:/cvmfs/uc3.uchicago.edu/Wolfram/Mathematica/8.0/Executables
+  $ export PATH=/home/antonyu/Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/bin:/home/antonyu/Jenkins\workspace\OSG_Connect_Swift/unit-tests/tutorial-swift/app:/home/antonyu/osg-swift/bin:/home/antonyu/osg-swift/app:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/xrootd/3.2.7-x86_64-slc6/v3.2.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/root/5.34.18-x86_64-slc6-gcc4.7/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/python/2.7.3-x86_64-slc6-gcc47/sw/lcg/external/Python/2.7.3/x86_64-slc6-gcc47-opt/bin:/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Gcc/gcc472p1_x86_64_slc6/slc6/gcc47/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/dell/srvadmin/bin:/usr/local/swift/stable/bin:/home/antonyu/bin:/cvmfs/uc3.uchicago.edu/Wolfram/Mathematica/8.0/Executables
   $ swift p1.swift > output.txt 2>&1
   $ grep Final output.txt 
   Final status:*  Finished successfully:* (glob)
