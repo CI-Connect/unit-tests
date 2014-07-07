@@ -11,10 +11,12 @@ submit
   $ cp ${TESTDIR}/pegasus_wait.sh .
   $ chmod +x pegasus_wait.sh
 
-  $ ./pegasus_wait.sh  
-   # jobs succeeded   :*(100.00%) (glob)
-   # jobs failed      :      0 (0.00%)
-   # jobs unsubmitted :      0 (0.00%)
+  $ ./submit | grep pegasus-status
+
+#  $ ./pegasus_wait.sh  
+#   # jobs succeeded   :*(100.00%) (glob)
+#   # jobs failed      :      0 (0.00%)
+#   # jobs unsubmitted :      0 (0.00%)
   
 verify output
 ------------- 
