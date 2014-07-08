@@ -12,9 +12,9 @@ submit
   $ chmod +x pegasus_wait.sh
 
   $ ./pegasus_wait.sh  
-   # jobs succeeded   :*(100.00%) (glob)
-   # jobs failed      :      0 (0.00%)
-   # jobs unsubmitted :      0 (0.00%)
+   # jobs succeeded   :* (glob)
+   # jobs failed      :* (glob)
+   # jobs unsubmitted :* (glob)
   
 verify output
 ------------- 
