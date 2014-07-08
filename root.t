@@ -27,6 +27,14 @@ ROOT
   ...Type diagnostics for diagnostic tools
   ...Type helpMe for more help
   ...Type printMenu to show this menu
+Temporary globs for proxy message from cern: 
+  
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  * (glob)
+  
   ************************************************************************
   Setting up ROOT version * (glob)
     Current GCC version: gcc (GCC) * (glob)
