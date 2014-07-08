@@ -13,7 +13,8 @@ do
     elif cat output.txt | grep Running >/dev/null;
        then continue
     else
-       echo "Error: Pegasus submission failed"
+       cat output.txt
+       echo $WFDIR
        exit
     fi
 done
