@@ -27,12 +27,13 @@ ROOT
   ...Type diagnostics for diagnostic tools
   ...Type helpMe for more help
   ...Type printMenu to show this menu
-Temporary globs for proxy message from cern: 
-  * (glob)
-  * (glob)
-  * (glob)
-  * (glob)
-  * (glob)
+  
+  \x1b[1m\x1b[4m07 Jul 2014\x1b[0m  (esc)
+      There may be some voms-proxy errors (voms2.cern.ch and lcg-voms2.cern.ch).
+       This can be ignored for now as there is a migration to new servers 
+       which are not yet switched on.  However, at the end of the commands, 
+       you must see a successful attempt and obtain a valid proxy.
+  
   ************************************************************************
   Setting up ROOT version * (glob)
     Current GCC version: gcc (GCC) * (glob)
