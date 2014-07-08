@@ -7,7 +7,7 @@ WFDIR=$(./submit | grep pegasus-status | cut -f8 -d' ')
 c=1
 while [ $c -le 5 ]
 do
-    pegasus-status $WFDIR | tail -1 > output.txt
+    pegasus-status $WFDIR | tail -1 1> output.txt
     if diff file1.txt output.txt >/dev/null;
        then break
     elif cat output.txt | grep Running >/dev/null;
