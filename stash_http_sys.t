@@ -13,7 +13,7 @@ check files
   echo 'hello world' > test.txt
 
   $ cat test.txt
-  hello world 
+  hello world
 
 Making file accessible on HTTP
 ------------------------------
@@ -25,17 +25,17 @@ Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_dir
+  $ curl -s http://raw.stash.osgconnect.net/+antonyu/test_dir/test.sh > test.sh
 
 verify file received
-  $ ls test_dir/test.sh
+  $ ls test.sh
   test.sh
 
 verify correct output
-  $ cat test_dir/test.sh
+  $ cat test.sh
   echo 'hello world' > test.txt
 
-  $ ./test_dir/test.sh
+  $ ./test.sh
 
   $ cat test.txt
   hello world
