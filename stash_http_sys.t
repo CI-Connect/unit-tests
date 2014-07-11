@@ -25,17 +25,19 @@ Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ curl -s http://raw.stash.osgconnect.net/+antonyu/test_dir/test.sh > test.sh
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_dir
 
 verify file received
-  $ ls test.sh
+  $ ls test_dir/test.sh
   test.sh
 
 verify correct output
-  $ cat test.sh
+  $ chmod +x test_dir/test.sh
+
+  $ cat test_dir/test.sh
   echo 'hello world' > test.txt
 
-  $ ./test.sh
+  $ ./test_dir/test.sh
 
   $ cat test.txt
   hello world
