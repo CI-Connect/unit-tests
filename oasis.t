@@ -3,9 +3,9 @@ check OASIS and PALMS
   $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
   $ palms list > palms.txt
   $ grep python palms.txt
-  python         Linux   x86_64  1.6.1-1
-  python         Linux   x86_64  1.7.0-1
-  python         Linux   i386    1.6.1-1
+  python         Linux   x86_64  * (glob)
+  python         Linux   x86_64  * (glob)
+  python         Linux   i386    * (glob)
 
   $ palmsdosetup R
   $ R --version
