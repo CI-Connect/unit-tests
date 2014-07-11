@@ -34,7 +34,21 @@ ROOT
        which are not yet switched on.  However, at the end of the commands, 
        you must see a successful attempt and obtain a valid proxy.
   
-  ************************************************************************
+  
+  \x1b[1m\x1b[4m10 Jul 2014\x1b[0m  (esc)
+      Standalone ROOT version 5.34.19 is available.
+      5.34.19 will be the default version on or after 17 Jul 2014.     
+      There are 
+        SL5 versions (gcc43, python 2.6) 
+        SL6 versions (gcc47 and gcc48, python 2.7)
+        MacOS 10.9 (clang 5.1)
+  
+      Standalone ROOT version 6.00.02 is available.
+      This is experimental and will not be made the default.
+  
+     (Usage: showVersions root).  
+  
+    ************************************************************************
   Setting up ROOT version * (glob)
     Current GCC version: gcc (GCC) * (glob)
   Setting up gcc version * (glob)
