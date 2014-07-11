@@ -12,14 +12,12 @@ check files
   $ cat test_dir/test.sh
   echo 'hello world' > test.txt
 
-  $ cat test2.txt
+  $ cat test.txt
   hello world 
 
 Making file accessible on HTTP
 ------------------------------
-  $ scp test.txt ~/data/public
-  $ chmod 644 ~/data/public/test.txt
-  $ cp -a test_dir ~/data/public/test_dir
+  $ cp -a test_dir ~/data/public
   $ chmod 755 ~/data/public/test_dir
   $ chmod 644 ~/data/public/test_dir/test.sh
 
@@ -28,18 +26,16 @@ Accessing files using wget
   $ mkdir tmp
   $ cd tmp
   $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_dir
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test.txt
 
-verify files received
-  $ ls test.txt
-  test.txt
-
+verify file received
   $ ls test_dir/test.sh
   test.sh
 
 verify correct output
   $ cat test_dir/test.sh
-  echo 'hello world' > test2.txt
+  echo 'hello world' > test.txt
+
+  $ ./test_dir/test.sh
 
   $ cat test.txt
   hello world
