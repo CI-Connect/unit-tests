@@ -1,3 +1,5 @@
+Note: must run on osgconnect to access user's stash
+
 Prologue
 --------
   $ cd ${TESTDIR}

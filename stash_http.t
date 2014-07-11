@@ -1,3 +1,5 @@
+Note: must run on osgconnect to access user's stash
+
 prologue
 --------
   $ cd ~/Jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests

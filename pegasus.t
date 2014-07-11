@@ -1,3 +1,5 @@
+Note: must run on osgconnect for Pegasus
+
 Prologue
 --------
   $ cd ~/Jenkins/workspace/OSG_Connect_Pegasus/unit-tests
@@ -15,6 +17,3 @@ submit
    # jobs succeeded   :* (glob)
    # jobs failed      :* (glob)
    # jobs unsubmitted :* (glob)
-  
-verify output
-------------- 

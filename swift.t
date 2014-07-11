@@ -1,3 +1,5 @@
+Note: must run on osgconnect to source swift
+
 Prologue
 --------
   $ cd ~/Jenkins/workspace/OSG_Connect_Swift/unit-tests
