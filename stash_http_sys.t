@@ -17,7 +17,7 @@ check files
 
 Making file accessible on HTTP
 ------------------------------
-  $ scp test2.txt ~/data/public
+  $ scp test.txt ~/data/public
   $ chmod 644 ~/data/public/test.txt
   $ cp -a test_dir ~/data/public/test_dir
   $ chmod 755 ~/data/public/test_dir
