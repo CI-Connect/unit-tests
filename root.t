@@ -48,7 +48,7 @@ ROOT
   
      (Usage: showVersions root).  
   
-    ************************************************************************
+  ************************************************************************
   Setting up ROOT version * (glob)
     Current GCC version: gcc (GCC) * (glob)
   Setting up gcc version * (glob)
