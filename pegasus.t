@@ -27,6 +27,8 @@ Allow Pegasus to cluster up to 50 tasks in each job
   $ rm dax-generator.py
   $ mv tmp.py dax-generator.py
 
+  $ chmod +x dax-generator.py
+
   $ ./pegasus_wait.sh
   # jobs succeeded   :* (glob)
   # jobs failed      :* (glob)
