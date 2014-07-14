@@ -1,21 +1,20 @@
 #!/bin/bash
 
-echo 'Summary: 1 DAG total (Success:1)' > file1.txt
-
 WFDIR=$(./submit | grep pegasus-status | cut -f8 -d' ')
 
 c=1
 while [ $c -le 5 ]
 do
     pegasus-status $WFDIR | tail -1 1> output.txt
-    if diff file1.txt output.txt >/dev/null;
+    if cat output.txt | grep Success >/dev/null;
        then break
-    elif cat output.txt | grep Running >/dev/null;
-       then continue
+    elif cat output.txt | grep Fail >/dev/null;
+       then 
+	echo "Pegasus submission failed. WFDIR: "
+	echo $WFDIR
+	exit
     else
-       cat output.txt
-       echo $WFDIR
-       exit
+	continue 
     fi
 done
 
