@@ -1,43 +1,24 @@
-Note: must run on osgconnect to save in user's stash
+Note: must run on osgconnect to access user's stash
 
-make a basic file
------------------
-  $ mkdir test_dir
-  $ touch test_dir/test.sh
-  $ echo "echo 'hello world' > test.txt" > test_dir/test.sh
-  $ chmod +x test_dir/test.sh
-  $ ./test_dir/test.sh
-
-check files
-  $ cat test_dir/test.sh
-  echo 'hello world' > test.txt
-
-  $ cat test.txt
-  hello world
+prologue
+--------
+  $ cd ~/Jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests
+  $ cd tutorial-stash-http
 
 Making file accessible on HTTP
 ------------------------------
-  $ cp -a test_dir ~/data/public
-  $ chmod 755 ~/data/public/test_dir
-  $ chmod 644 ~/data/public/test_dir/test.sh
+  $ scp random_words ~/data/public
+  $ chmod 644 ~/data/public/random_words
+  $ cp -a test_directory ~/data/public/test_directory
+  $ chmod 755 ~/data/public/test_directory
+  $ chmod 644 ~/data/public/test_directory/test_file
 
 Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_dir
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file
 
 verify file received
-  $ ls test_dir/test.sh
-  test.sh
-
-verify correct output
-  $ chmod +x test_dir/test.sh
-
-  $ cat test_dir/test.sh
-  echo 'hello world' > test.txt
-
-  $ ./test_dir/test.sh
-
-  $ cat test.txt
-  hello world
+  $ ls test_file
+  test_file
