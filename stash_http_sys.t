@@ -4,10 +4,8 @@ prologue
 --------
   $ mkdir test_dir
   $ touch test_dir/test.txt
-  $ echo "hello world" > test_dir/test.txt
-
-  $ cat test_dir/test.txt
-  hello world
+  $ ls test_dir/test.txt
+  test.txt
 
 Making file accessible on HTTP
 ------------------------------
@@ -24,6 +22,3 @@ Accessing files using wget
 verify file received
   $ ls test.txt
   test.txt
-
-  $ cat test.txt
-  hello world
