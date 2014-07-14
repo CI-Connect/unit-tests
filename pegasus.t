@@ -30,7 +30,7 @@ Allow Pegasus to cluster up to 50 tasks in each job
   $ chmod +x dax-generator.py
 
   $ ./pegasus_wait.sh
-  # jobs succeeded   :* (glob)
-  # jobs failed      :* (glob)
-  # jobs unsubmitted :* (glob)
+   # jobs succeeded   :* (glob)
+   # jobs failed      :* (glob)
+   # jobs unsubmitted :* (glob)
   
