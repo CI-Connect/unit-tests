@@ -5,7 +5,7 @@ prologue
   $ mkdir test_dir
   $ touch test_dir/test.txt
   $ ls test_dir/test.txt
-  test.txt
+  test_dir/test.txt
 
 Making file accessible on HTTP
 ------------------------------
