@@ -2,23 +2,23 @@ Note: must run on osgconnect to access user's stash
 
 prologue
 --------
-  $ mkdir test_dir
-  $ touch test_dir/test.txt
-  $ ls test_dir/test.txt
-  test_dir/test.txt
+  $ mkdir stash_http
+  $ touch stash_http/http_test.txt
+  $ ls stash_http/http_test.txt
+  stash_http/http_test.txt
 
 Making file accessible on HTTP
 ------------------------------
-  $ cp -a test_dir ~/data/public/test_dir
-  $ chmod 755 ~/data/public/test_dir
-  $ chmod 644 ~/data/public/test_dir/test.txt
+  $ cp -a stash_http ~/data/public/system_tests/stash_http
+  $ chmod 755 ~/data/public/system_tests/stash_http
+  $ chmod 644 ~/data/public/system_tests/stash_http/http_test.txt
 
 Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_dir/test.txt
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/system_tests/stash_http/http_test.txt
 
 verify file received
-  $ ls test.txt
-  test.txt
+  $ ls http_test.txt
+  http_test.txt
