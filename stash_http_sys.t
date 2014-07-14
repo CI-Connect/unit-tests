@@ -13,7 +13,7 @@ Making file accessible on HTTP
 ------------------------------
   $ cp -a test_dir ~/data/public/test_dir
   $ chmod 755 ~/data/public/test_dir
-  $ chmod 644 ~/data/public/test_directory/test.txt
+  $ chmod 644 ~/data/public/test_dir/test.txt
 
 Accessing files using wget
 --------------------------
