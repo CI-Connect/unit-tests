@@ -51,5 +51,5 @@ Clean up
   [2]
 
   $ ls test_directory
-  ls: cannot access test_directory: No such file or directory 
+  ls: cannot access test_directory: No such file or directory
   [2]
