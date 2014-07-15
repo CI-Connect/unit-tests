@@ -26,3 +26,11 @@ Copy some extra utilities to the unit test directory
 run words.submit with condor
   $ ./run_and_wait.sh words.submit
   All jobs done.
+
+Clean up
+--------
+  $ cd ~/data/public
+  $ rm words.tar.gz
+  $ ls words.tar.gz
+  ls: cannot access words.tar.gz: No such file or directory
+  [2]

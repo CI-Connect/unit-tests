@@ -48,3 +48,11 @@ verify output
   $ cat logs/oasis.0.out | tail -2
   Finishing script at:* (glob)
   * (glob)
+
+Clean up
+--------
+  $ cd ~/data/public
+  $ rm oasis_app.tar.gz
+  $ ls oasis_app.tar.gz
+  ls: cannot access oasis_app.tar.gz: No such file or directory
+  [2]

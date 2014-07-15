@@ -22,3 +22,11 @@ Accessing files using wget
 verify file received
   $ ls http_test.txt
   http_test.txt
+
+Clean up
+--------
+  $ cd ~/data/public/system_tests
+  $ rm -rf stash_http
+  $ ls stash_http
+  ls: cannot access stash_http: No such file or directory
+  [2]

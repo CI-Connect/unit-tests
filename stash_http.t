@@ -39,3 +39,17 @@ Copy some extra utilities to the unit test directory
 run application.submit with condor
   $ ./run_and_wait.sh application.submit
   All jobs done.
+
+Clean up
+--------
+  $ cd ~/data/public
+  $ rm random_words
+  $ rm -rf test_directory
+ 
+  $ ls random_words
+  ls: cannot access random_words: No such file or directory
+  [2]
+
+  $ ls test_directory
+  ls: cannot access test_directory: No such file or directory 
+  [2]
