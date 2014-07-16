@@ -105,7 +105,6 @@ stats.sh
   SHLVL=* (glob)
   TEMP=* (glob)
   TERM=* (glob)
-  TERMCAP=* (glob)
   TESTDIR=/home/jenkins/workspace/OSG_Connect_Swift/unit-tests
   TESTFILE=swift.t
   TMP=* (glob)
