@@ -2,7 +2,7 @@ Note: must run on osgconnect for Pegasus
 
 prologue
 --------
-  $ cd ~/Jenkins/workspace/OSG_Connect_Pegasus/unit-tests
+  $ cd /var/lib/jenkins/workspace/OSG_Connect_Pegasus/unit-tests
   $ cd tutorial-pegasus
   $ cd wordfreq-workflow
 
