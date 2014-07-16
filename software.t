@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 Prologue
 --------
-  $ cd ~/Jenkins/workspace/OSG_Connect_Software/unit-tests
+  $ cd /var/lib/jenkins/workspace/OSG_Connect_Software/unit-tests
   $ cd tutorial-software
 
 Create tar bundle
@@ -14,7 +14,7 @@ Create tar bundle
   $ mv words.tar.gz ~/data/public/
   $ chmod +r ~/data/public/words.tar.gz
 
-  $ sed 's/sthapa/antonyu/' words.submit > temp.submit
+  $ sed 's/sthapa/jenkins/' words.submit > temp.submit
   $ rm words.submit
   $ mv temp.submit words.submit
 

@@ -29,7 +29,7 @@ copy tarball to stash
 make run_job.py wrapper
 -----------------------
 
-  $ sed 's/username/antonyu/' oasis.ini > temp.ini
+  $ sed 's/username/jenkins/' oasis.ini > temp.ini
   $ rm oasis.ini
   $ mv temp.ini oasis.ini
 

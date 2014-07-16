@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 prologue
 --------
-  $ cd ~/Jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests
+  $ cd /var/lib/jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests
   $ cd tutorial-stash-http
 
 Making file accessible on HTTP
@@ -17,7 +17,7 @@ Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/test_directory/test_file
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+jenkins/test_directory/test_file
 
 verify file received
   $ ls test_file
@@ -27,7 +27,7 @@ verify file received
   $ cd application
 
 replace username in app_script.sh
-  $ sed 's/username/antonyu/' app_script.sh > temp.sh 
+  $ sed 's/username/jenkins/' app_script.sh > temp.sh 
   $ rm app_script.sh 
   $ mv temp.sh app_script.sh
 
