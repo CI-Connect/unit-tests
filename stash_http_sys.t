@@ -17,7 +17,7 @@ Accessing files using wget
 --------------------------
   $ mkdir tmp
   $ cd tmp
-  $ wget -q --no-check-certificate http://stash.osgconnect.net/+antonyu/system_tests/stash_http/http_test.txt
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+jenkins/system_tests/stash_http/http_test.txt
 
 verify file received
   $ ls http_test.txt
