@@ -70,8 +70,9 @@ Allow Pegasus to cluster up to 50 tasks in each job
   
 Clean up
 --------
+  $ cd ~/data/outputs
+  $ rm *.out
+
   $ cd ~/data/workflows/jenkins/pegasus/wordfreq-workflow
   $ rm -rf *0
 
-  $ cd ~/data/outputs
-  $ rm *.out
