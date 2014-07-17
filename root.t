@@ -53,14 +53,16 @@ ROOT
 
 inspector
 ---------
-example root file not working under new version of ROOT
- $ ./inspector ex.root
- 0
+  $ wget -q --no-check-certificate http://stash.osgconnect.net/+jenkins/ex1.root
+  $ ./inspector ex1.root | tail -2  
+  Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
+  vxp_y	305129
+  vxp_z	356839
 
 wrapper.sh
 ----------
 replace ROOT-FILE with example root file name
-  $ sed 's/ROOT-FILE/ex.root/' wrapper.sh > temp.sh 
+  $ sed 's/ROOT-FILE/ex1.root/' wrapper.sh > temp.sh 
   $ rm wrapper.sh 
   $ mv temp.sh wrapper.sh
 
