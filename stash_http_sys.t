@@ -2,6 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 prologue
 --------
+  $ ls
   $ mkdir stash_http
   $ touch stash_http/http_test.txt
   $ ls stash_http/http_test.txt
