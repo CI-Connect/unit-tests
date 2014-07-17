@@ -2,11 +2,11 @@ verify transfers succeeded
 -------------------------
   $ cd ~/workspace/Stash_Globus/unit-tests
 
-  $ cat gb_to_stash.txt
+  $ cat gb_to_stash.txt | head -2
   Task ID: * (glob)
   Type <CTRL-C> to cancel or bg<ENTER> to background
 
-  $ cat stash_to_gb.txt
+  $ cat stash_to_gb.txt | head -2
   Task ID: * (glob)
   Type <CTRL-C> to cancel or bg<ENTER> to background
 
