@@ -6,7 +6,6 @@ prologue
   $ touch stash_http/http_test.txt
   $ ls stash_http/http_test.txt
   stash_http/http_test.txt
-  $ ls stash_http/http_test.txt
 
 Making file accessible on HTTP
 ------------------------------
