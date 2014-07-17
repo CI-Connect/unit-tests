@@ -2,14 +2,24 @@ verify transfers succeeded
 -------------------------
   $ cd ~/workspace/Stash_Globus/unit-tests
 
-  $ grep 1/1 gb_to_stash.txt
+  $ cat gb_to_stash.txt
+  Task ID: * (glob) 
+  Type <CTRL-C> to cancel or bg<ENTER> to background
+  * (glob)
+  * (glob)
+  * (glob)
   [X*] 1/1 0.00 mbps (glob)
 
-  $ grep 1/1 stash_to_gb.txt
-  [X*] 1/1 0.00 mbps (glob)	
- 
+  $ cat stash_to_gb.txt
+  Task ID: * (glob)
+  Type <CTRL-C> to cancel or bg<ENTER> to background
+  * (glob)
+  * (glob)
+  * (glob)
+  [X*] 1/1 0.00 mbps (glob)
+
   $ cat gb_ls.txt
-  /home/jenkins/globus_test.txt
+  ~/globus_test.txt
 
   $ cd ~/data/public/system_tests
   $ ls globus_test.txt 
