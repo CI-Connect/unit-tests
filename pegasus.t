@@ -22,7 +22,7 @@ verify output
   $ cd ~/data/outputs/
   $ head -n 3 *.out
   ==> Alices_Adventures_in_Wonderland_by_Lewis_Carroll.txt.out <==
-     1818\tthe (esc) 
+     1818\tthe (esc)
       940\tand (esc)
       809\tto (esc)
   
