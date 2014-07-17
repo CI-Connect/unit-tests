@@ -3,20 +3,12 @@ verify transfers succeeded
   $ cd ~/workspace/Stash_Globus/unit-tests
 
   $ cat gb_to_stash.txt
-  Task ID: * (glob) 
+  Task ID: * (glob)
   Type <CTRL-C> to cancel or bg<ENTER> to background
-  * (glob)
-  * (glob)
-  * (glob)
-  [X*] 1/1 0.00 mbps (glob)
 
   $ cat stash_to_gb.txt
   Task ID: * (glob)
   Type <CTRL-C> to cancel or bg<ENTER> to background
-  * (glob)
-  * (glob)
-  * (glob)
-  [X*] 1/1 0.00 mbps (glob)
 
   $ cat gb_ls.txt
   ~/globus_test.txt
