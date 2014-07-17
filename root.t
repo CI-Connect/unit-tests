@@ -54,10 +54,18 @@ ROOT
 inspector
 ---------
   $ wget -q --no-check-certificate http://stash.osgconnect.net/+jenkins/ex1.root
-  $ ./inspector ex1.root | tail -2  
+  $ ./inspector ex1.root | head -10
   Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
-  vxp_y	305129
-  vxp_z	356839
+  2
+  CollectionTree:6290:132131:6
+  EventNumber	17671
+  RunNumber	248
+  StreamAOD_ref	9131
+  StreamESD_ref	50859
+  StreamRDO_ref	9131
+  Token		45091
+  physics:6290:714067858:8543
+  EF_2b35_loose_3j35_a4tchad_4L1J15	3498
 
 wrapper.sh
 ----------
