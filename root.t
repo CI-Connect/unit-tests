@@ -33,8 +33,7 @@ ROOT
        This can be ignored for now as there is a migration to new servers 
        which are not yet switched on.  However, at the end of the commands, 
        you must see a successful attempt and obtain a valid proxy.
-  
-  
+    
   ************************************************************************
   Setting up ROOT version * (glob)
     Current GCC version: gcc (GCC) * (glob)
@@ -54,8 +53,9 @@ ROOT
 
 inspector
 ---------
-  $ ./inspector ex.root
-  0
+example root file not working under new version of ROOT
+ $ ./inspector ex.root
+ 0
 
 wrapper.sh
 ----------
