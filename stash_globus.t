@@ -1,5 +1,7 @@
 verify transfers succeeded
 -------------------------
+  $ cd ~/workspace/Stash_Globus/unit-tests
+
   $ grep 1/1 gb_to_stash.txt
   [X*] 1/1 0.00 mbps (glob)
 
