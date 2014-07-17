@@ -7,7 +7,7 @@ verify transfers succeeded
   [X*] 1/1 0.00 mbps (glob)	
  
   $ cat gb_ls.txt
-  /share/godata/globus_test.txt
+  /home/jenkins/globus_test.txt
 
   $ cd ~/data/public/system_tests
   $ ls globus_test.txt 
