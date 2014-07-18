@@ -1,5 +1,6 @@
-Notes: 1) must run on osgconnect to access user's stash
-       2) currently uploads file on Stash via Posix. Sending an HTTP PUT or POST request is not supported at the moment. It would require WebDAV, an extension to HTTP. When supported, replace "cp -a stash_http PATH-TO-STASH" with "curl -X POST -v -# -o output -T stash_http http://stash.osgconnect.net/+jenkins/system_tests/stash_http"
+Notes: 
+1) must run on osgconnect to access user's stash
+2) currently uploads file on Stash via Posix. Sending an HTTP PUT or POST request is not supported at the moment. It would require WebDAV, an extension to HTTP. When supported, replace "cp -a stash_http PATH-TO-STASH" with "curl -X POST -v -# -o output -T stash_http http://stash.osgconnect.net/+jenkins/system_tests/stash_http"
 
 prologue
 --------
