@@ -44,11 +44,6 @@ run oasis.submit through condor
   $ ./run_and_wait.sh oasis.submit
   All jobs done.
 
-verify output
-  $ cat logs/oasis.0.out | tail -2
-  Finishing script at:* (glob)
-  * (glob)
-
 Clean up
 --------
   $ cd ~/data/public
