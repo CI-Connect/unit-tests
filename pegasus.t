@@ -75,7 +75,7 @@ Clean up
 
   $ cd ~/data/workflows/jenkins/pegasus/wordfreq-workflow
   $ rm -rf *0
-  
+
   $ ls *0
   ls: cannot access *0: No such file or directory
   [2]
