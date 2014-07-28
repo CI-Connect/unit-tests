@@ -76,3 +76,4 @@ Clean up
   $ cd ~/data/workflows/jenkins/pegasus/wordfreq-workflow
   $ rm -rf *0
 
+  $ ls
