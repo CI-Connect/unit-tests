@@ -71,14 +71,14 @@ Allow Pegasus to cluster up to 50 tasks in each job
 Clean up
 --------
   $ cd ~/data/outputs
-  $ rm *.out
+  $ rm *.out > ${TESTDIR}/rm_out.txt 2>&1
 
   $ ls *.out
   ls: cannot access *.out: No such file or directory
   [2]
 
   $ cd ~/data/workflows/jenkins/pegasus/wordfreq-workflow
-  $ rm -rf *
+  $ rm -rf * > ${TESTDIR}/rm_wf.txt 2>&1
 
   $ ls *
   ls: cannot access *: No such file or directory
