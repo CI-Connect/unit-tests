@@ -26,7 +26,7 @@ example code
 
 Add Requirement line
 --------------------
-  $ sed -i -e "\10aRequirements = IS_RCC_duke =?= True" app_script.sh 
+  $ sed -i -e "\10aRequirements = IS_RCC_duke =?= True" transfer.submit 
 
 HTCondor job
 ------------
