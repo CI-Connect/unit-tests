@@ -26,7 +26,7 @@ example code
 
 Add Requirement line
 --------------------
-  $ sed -i -e "\10aRequirements = IS_RCC_duke =?= True" transfer.submit 
+  $ sed -i "11s/$/Requirements = IS_RCC_duke =?= True/" transfer.submit
 
 HTCondor job
 ------------
