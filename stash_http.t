@@ -2,8 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Stash_HTTP/unit-tests
-  $ cd tutorial-stash-http
+  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Stash_HTTP/unit-tests/tutorial-stash-http
 
 Making file accessible on HTTP
 ------------------------------
