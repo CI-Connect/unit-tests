@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 Prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Software/unit-tests
+  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Software/unit-tests
   $ cd tutorial-software
 
 Create tar bundle
