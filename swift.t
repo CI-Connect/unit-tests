@@ -59,8 +59,8 @@ stats.sh
   BUILD_DISPLAY_NAME=* (glob)
   BUILD_ID=* (glob)
   BUILD_NUMBER=* (glob)
-  BUILD_TAG=jenkins-OSG_Connect_Swift-* (glob)
-  BUILD_URL=http://build.ci-connect.net:8080/job/OSG_Connect_Swift/* (glob)
+  BUILD_TAG=* (glob)
+  BUILD_URL=* (glob)
   CDPATH=* (glob)
   COBBLER_SERVER=* (glob)
   COLUMNS=* (glob)
@@ -84,8 +84,8 @@ stats.sh
   JENKINS_HOME=/var/lib/jenkins
   JENKINS_SERVER_COOKIE=* (glob)
   JENKINS_URL=http://build.ci-connect.net:8080/
-  JOB_NAME=OSG_Connect_Swift
-  JOB_URL=http://build.ci-connect.net:8080/job/OSG_Connect_Swift/
+  JOB_NAME=OSG_Connect_Tests/OSG_Connect_Swift
+  JOB_URL=http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/OSG_Connect_Swift/
   LANG=* (glob)
   LANGUAGE=* (glob)
   LC_ALL=* (glob)
@@ -97,7 +97,7 @@ stats.sh
   NODE_LABELS=OSG_Connect_Slave
   NODE_NAME=OSG_Connect_Slave
   PATH=* (glob)
-  PWD=/var/lib/jenkins/workspace/OSG_Connect_Swift/unit-tests/tutorial-swift
+  PWD=/var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests/tutorial-swift
   QTDIR=* (glob)
   QTINC=* (glob)
   QTLIB=* (glob)
@@ -105,7 +105,7 @@ stats.sh
   SHLVL=* (glob)
   TEMP=* (glob)
   TERM=* (glob)
-  TESTDIR=/home/jenkins/workspace/OSG_Connect_Swift/unit-tests
+  TESTDIR=/home/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests
   TESTFILE=swift.t
   TMP=* (glob)
   TMPDIR=* (glob)
