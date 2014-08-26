@@ -21,6 +21,7 @@ edit job wrapper
   $ skeleton_key -c data_access.ini
   Generated ticket myticket.ticket.
   ticket 'myticket.ticket': successfully * (glob)
+  ticket 'myticket.ticket': successfully registered.
   ticket 'myticket.ticket': directory '/' aclmask = 'rl'.
   ticket 'myticket.ticket': directory '/' aclmask = 'rwl'.
 
@@ -49,3 +50,6 @@ run the job through condor
 clean up
 --------
   $ rm ~/stash/public/data_app.tar.gz
+  $ ls ~/stash/public/data_app.tar.gz
+  ls: cannot access /home/jenkins/stash/public/data_app.tar.gz: No such file or directory
+  [2]
