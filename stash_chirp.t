@@ -28,7 +28,7 @@ edit job wrapper
 verification
 ------------
   $ chmod 700 run_job.py
-  $ ./run_job.py
+  $ python run_job.py
   testing output on: * (glob)
 
   $ cat ~/stash/data_access_test
