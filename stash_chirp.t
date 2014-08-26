@@ -7,6 +7,9 @@ creating tarball
 ----------------
   $ chmod 755 data_app/data_access.sh
   $ tar cvzf data_app.tar.gz data_app
+  data_app/
+  data_app/data_access.sh
+
   $ cp data_app.tar.gz ~/stash/public/
   $ chmod 644 ~/stash/public/data_app.tar.gz
 
@@ -17,6 +20,10 @@ edit job wrapper
   $ mv temp.ini data_access.ini
 
   $ skeleton_key -c data_access.ini
+  Generated ticket myticket.ticket
+  ticket 'myticket.ticket': successfully created with * (glob)
+  ticket 'myticket.ticket': directory '/' aclmask = 'rl'.
+  ticket 'myticket.ticket': directory '/' aclmask = 'rwl'.
 
 verification
 ------------
