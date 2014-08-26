@@ -1,7 +1,6 @@
 setup
 -----
   $ cd ${TESTDIR}/tutorial-stash_chirp
-  $ mkdir ~/stash/chirp_access
 
 creating tarball
 ----------------
@@ -20,8 +19,8 @@ edit job wrapper
   $ mv temp.ini data_access.ini
 
   $ skeleton_key -c data_access.ini
-  Generated ticket myticket.ticket
-  ticket 'myticket.ticket': successfully created with * (glob)
+  Generated ticket myticket.ticket.
+  ticket 'myticket.ticket': successfully * (glob)
   ticket 'myticket.ticket': directory '/' aclmask = 'rl'.
   ticket 'myticket.ticket': directory '/' aclmask = 'rwl'.
 
