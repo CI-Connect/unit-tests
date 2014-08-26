@@ -30,6 +30,8 @@ scaling.t - Unit test for the "Scaling up to more resources" tutorial (https://c
 
 software.t - Unit test for the "Software access using HTCondor or the Web" tutorial (https://confluence.grid.iu.edu/display/CON/Software+access+using+HTCondor+or+the+Web). The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/OSG_Connect_Software/
 
+stash_chirp.t - Unit test for the "Access Stash remotely from your job using Parrot and Chirp" tutorial (https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+Parrot+and+Chirp). The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/OSG_Connect/Stash_Chirp/
+
 stash_http.t - Unit test for the "Access Stash remotely from your job using HTTP" tutorial (https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+HTTP). The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/OSG_Connect_Stash_HTTP/
 
 swift.t - Unit test for the "Using SWIFT on OSG Connect" tutorial (https://confluence.grid.iu.edu/display/CON/Using+SWIFT+on+OSG+Connect). The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/OSG_Connect_Swift/
