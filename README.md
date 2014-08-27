@@ -4,41 +4,41 @@ Unit tests
 This repository contains unit tests for OSG Connect tutorials and system status tests for various Connects (OSG Connect, Duke Connect, UChicago Connect, etc.) 
 These unit tests perform the following functions:
   1. Ensure that the OSG Connect job submission infrastructure is working properly
-  2. Ensure that our tutorials are up to date with the latest features of OSG Connect. All of the tutorials can be found in the OSG ConnectBook (https://confluence.grid.iu.edu/display/CON/Home).
+  2. Ensure that our tutorials are up to date with the latest features of OSG Connect. All of the tutorials can be found in the [OSG ConnectBook](https://confluence.grid.iu.edu/display/CON/Home).
 
 OSG Connect tutorial tests
 --------------------------
-In general, the following tests run the same commands that each corresponding ConnectBook tutorial asks users to follow in order to ensure that each command produces the expected output. The tests also check that any given source code functions correctly. The relevant tutorial unit tests are listed here, along with links to the corresponding ConnectBook pages. Jenkins build information for the tutorial tests can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/view/OSG_Connect_Tutorials/.
+In general, the following tests run the same commands that each corresponding ConnectBook tutorial asks users to follow in order to ensure that each command produces the expected output. The tests also check that any given source code functions correctly. The relevant tutorial unit tests are listed here, along with links to the corresponding ConnectBook pages. Jenkins build information for the tutorial tests can be found [here](http://build.ci-connect.net:8080/job/OSG_Connect_Tests/view/OSG_Connect_Tutorials/).
 
-htcondor_transfer.t - Unit test for the "Transferring data with HTCondor" tutorial (https://confluence.grid.iu.edu/display/CON/Transferring+data+with+HTCondor). Note: this unit test also functions as a system status test.
+htcondor_transfer.t - Unit test for the ["Transferring data with HTCondor" tutorial](https://confluence.grid.iu.edu/display/CON/Transferring+data+with+HTCondor). Note: this unit test also functions as a system status test.
 
-oasis_parrot.t - Unit test for the "Software access using OASIS and Parrot" tutorial (https://confluence.grid.iu.edu/display/CON/Software+access+using+OASIS+and+Parrot).
+oasis_parrot.t - Unit test for the ["Software access using OASIS and Parrot" tutorial](https://confluence.grid.iu.edu/display/CON/Software+access+using+OASIS+and+Parrot).
 
-octave.t - Unit test for the Octave application example (https://confluence.grid.iu.edu/display/CON/Example+Application+-+Octave).
+octave.t - Unit test for the [Octave application example](https://confluence.grid.iu.edu/display/CON/Example+Application+-+Octave).
 
-pegasus.t - Unit test for the Pegasus tutorial (https://confluence.grid.iu.edu/display/CON/Using+Pegasus+to+manage+jobs).
+pegasus.t - Unit test for the [Pegasus tutorial](https://confluence.grid.iu.edu/display/CON/Using+Pegasus+to+manage+jobs).
 
-photodemo.t - Unit test for the "Photo Analysis Demo" (https://confluence.grid.iu.edu/display/CON/Photo+Analysis+Demo).
+photodemo.t - Unit test for the ["Photo Analysis Demo"](https://confluence.grid.iu.edu/display/CON/Photo+Analysis+Demo).
 
-quickstart.t - Unit test for the "OSG Connect Quickstart" tutorial (https://confluence.grid.iu.edu/display/CON/OSG+Connect+Quickstart).
+quickstart.t - Unit test for the ["OSG Connect Quickstart" tutorial](https://confluence.grid.iu.edu/display/CON/OSG+Connect+Quickstart).
 
-R.t - Unit test for the R application example (https://confluence.grid.iu.edu/display/CON/Application+Example+-+R).
+R.t - Unit test for the [R application example](https://confluence.grid.iu.edu/display/CON/Application+Example+-+R).
 
-root.t - Unit test for the ROOT application example (https://confluence.grid.iu.edu/display/CON/Application+Example+-+ROOT).
+root.t - Unit test for the [ROOT application example](https://confluence.grid.iu.edu/display/CON/Application+Example+-+ROOT).
 
-scaling.t - Unit test for the "Scaling up to more resources" tutorial (https://confluence.grid.iu.edu/display/CON/Scaling+up+to+more+resources).
+scaling.t - Unit test for the ["Scaling up to more resources" tutorial](https://confluence.grid.iu.edu/display/CON/Scaling+up+to+more+resources).
 
-software.t - Unit test for the "Software access using HTCondor or the Web" tutorial (https://confluence.grid.iu.edu/display/CON/Software+access+using+HTCondor+or+the+Web).
+software.t - Unit test for the ["Software access using HTCondor or the Web" tutorial](https://confluence.grid.iu.edu/display/CON/Software+access+using+HTCondor+or+the+Web).
 
-stash_chirp.t - Unit test for the "Access Stash remotely from your job using Parrot and Chirp" tutorial (https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+Parrot+and+Chirp).
+stash_chirp.t - Unit test for the ["Access Stash remotely from your job using Parrot and Chirp" tutorial](https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+Parrot+and+Chirp).
 
-stash_http.t - Unit test for the "Access Stash remotely from your job using HTTP" tutorial (https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+HTTP).
+stash_http.t - Unit test for the ["Access Stash remotely from your job using HTTP" tutorial](https://confluence.grid.iu.edu/display/CON/Access+Stash+remotely+from+your+job+using+HTTP).
 
-swift.t - Unit test for the "Using SWIFT on OSG Connect" tutorial (https://confluence.grid.iu.edu/display/CON/Using+SWIFT+on+OSG+Connect).
+swift.t - Unit test for the ["Using SWIFT on OSG Connect" tutorial](https://confluence.grid.iu.edu/display/CON/Using+SWIFT+on+OSG+Connect).
 
 System status tests
 -------------------
-The following tests check to ensure that various systems in place on OSG Connect and other Connects are functioning properly. Jenkins build information for the system status tests running on OSG Connect can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/view/OSG_Connect_System_Tests/. For build information on tests running on other Connects, choose the appropriate Connect on the Jenkins build server at http://build.ci-connect.net:8080/.
+The following tests check to ensure that various systems in place on OSG Connect and other Connects are functioning properly. Jenkins build information for the system status tests running on OSG Connect can be found [here](http://build.ci-connect.net:8080/job/OSG_Connect_Tests/view/OSG_Connect_System_Tests/). For build information on tests running on other Connects, choose the appropriate Connect on the [Jenkins build server](http://build.ci-connect.net:8080/).
 
 htcondor_transfer.t - Unit test checking that users can submit jobs and transfer files using HTCondor. Note: this unit test also functions as a tutorial test.
 
