@@ -54,6 +54,6 @@ Cluster-specific tests
 ----------------------
 The following tests ensure that users can submit jobs to the respective campus clusters (e.g. Duke University's Blue Devil cluster).
 
-duke_bluedevil.t - Unit test checking that users can submit jobs to Duke University's Blue Devil cluster. The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/Duke_Connect_Tests/job/Duke_BlueDevilCluster/
+duke_bluedevil.t - Unit test checking that users can submit jobs to Duke University's Blue Devil cluster. The complete Jenkins build information for the test can be found [here](http://build.ci-connect.net:8080/job/Duke_Connect_Tests/job/Duke_BlueDevilCluster/).
 
-syracuse.t - Unit test checking that users can submit jobs to Syracuse University's cluster. The complete Jenkins build information for the test can be found at http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/Syracuse_Test/
+syracuse.t - Unit test checking that users can submit jobs to Syracuse University's cluster. The complete Jenkins build information for the test can be found [here](http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/Syracuse_Test/).
