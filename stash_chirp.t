@@ -46,6 +46,8 @@ run the job through condor
   $ cat ~/stash/data_access_test
   testing output on: * (glob)
 
+  $ rm ~/stash/data_access_test
+
 clean up
 --------
   $ rm ~/stash/public/data_app.tar.gz
