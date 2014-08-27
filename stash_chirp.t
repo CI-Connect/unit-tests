@@ -10,7 +10,7 @@ creating tarball
   data_app/data_access.sh
 
   $ cp data_app.tar.gz ~/stash/public/
-  $ chmod 664 ~/stash/public/data_app.tar.gz
+  $ chmod 777 ~/stash/public/data_app.tar.gz
 
 edit job wrapper
 ----------------
