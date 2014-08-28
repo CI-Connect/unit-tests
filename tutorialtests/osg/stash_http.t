@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Stash_HTTP/unit-tests/tutorial-stash-http
+  $ cd ${TESTDIR}/../../tutorial-stash-http
 
 Making file accessible on HTTP
 ------------------------------
@@ -33,7 +33,7 @@ replace username in app_script.sh
 HTcondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run application.submit with condor
   $ ./run_and_wait.sh application.submit

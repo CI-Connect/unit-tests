@@ -1,6 +1,6 @@
 setup
 -----
-  $ cd ${TESTDIR}/tutorial-stash_chirp
+  $ cd ${TESTDIR}/../../tutorial-stash_chirp
 
 creating tarball
 ----------------
@@ -38,7 +38,7 @@ verification
 submit jobs
 -----------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 run the job through condor
   $ ./run_and_wait.sh osg-connect.submit
   All jobs done.

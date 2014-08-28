@@ -2,14 +2,13 @@ Note: must run on osgconnect for Pegasus
 
 prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Pegasus/unit-tests
-  $ cd tutorial-pegasus/wordfreq-workflow
+  $ cd ${TESTDIR}/../../tutorial-pegasus/wordfreq-workflow
 
 submit
 ------
   $ chmod +x submit
 
-  $ cp ${TESTDIR}/pegasus_wait.sh .
+  $ cp ${TESTDIR}/../../pegasus_wait.sh .
   $ chmod +x pegasus_wait.sh
 
   $ ./pegasus_wait.sh  

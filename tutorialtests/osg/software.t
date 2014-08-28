@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 Prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Software/unit-tests
+  $ cd ${TESTDIR}/../../tutorial-software
   $ cd tutorial-software
 
 Create tar bundle
@@ -21,7 +21,7 @@ Create tar bundle
 HTCondor jobs
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run words.submit with condor
   $ ./run_and_wait.sh words.submit

@@ -1,6 +1,6 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-photodemo .
+  $ cp -a ${TESTDIR}/../../tutorial-photodemo .
   $ cd tutorial-photodemo
 
 Create photodemo.sub
@@ -25,7 +25,7 @@ HTCondor jobs
 -------------
 
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run photodemo.sub
   $ ./run_and_wait.sh photodemo.sub

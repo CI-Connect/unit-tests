@@ -2,9 +2,8 @@ Note: must run on osgconnect to source swift
 
 Prologue
 --------
-  $ cd /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests
-  $ cd tutorial-swift
-  $ source /var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests/tutorial-swift/setup.sh
+  $ cd ${TESTDIR}/../../tutorial-swift
+  $ source ${TESTDIR}/../../tutorial-swift/setup.sh
   using Swift from * (glob)
   Swift version is * (glob)
   Adding * (glob)
@@ -105,7 +104,7 @@ stats.sh
   SHLVL=* (glob)
   TEMP=* (glob)
   TERM=* (glob)
-  TESTDIR=/home/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests
+  TESTDIR=/home/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests/tutorialtests/osg
   TESTFILE=swift.t
   TMP=* (glob)
   TMPDIR=* (glob)

@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-scaling .
+  $ cp -a ${TESTDIR}/../../tutorial-scaling .
   $ cd tutorial-scaling
 
 short.sh
@@ -56,7 +56,7 @@ condor jobs
 -----------
 
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run campus.submit with condor:
   $ ./run_and_wait.sh campus.submit

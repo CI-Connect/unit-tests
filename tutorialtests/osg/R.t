@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-R .
+  $ cp -a ${TESTDIR}/../../tutorial-R .
   $ cd tutorial-R
 
 Software setup
@@ -40,7 +40,7 @@ ensure we can still run the code via the wrapper
 HTCondor job
 -------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 run the job through condor
   $ ./run_and_wait.sh R.submit
   All jobs done.

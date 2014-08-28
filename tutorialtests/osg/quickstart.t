@@ -1,6 +1,6 @@
 prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-quickstart .
+  $ cp -a ${TESTDIR}/../../tutorial-quickstart .
   $ cd tutorial-quickstart
 
 short.sh
@@ -31,7 +31,7 @@ condor jobs
 -----------
 
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run the tutorial with condor:
   $ ./run_and_wait.sh tutorial01
