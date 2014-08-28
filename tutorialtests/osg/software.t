@@ -3,7 +3,6 @@ Note: must run on osgconnect to access user's stash
 Prologue
 --------
   $ cd ${TESTDIR}/../../tutorial-software
-  $ cd tutorial-software
 
 Create tar bundle
 -----------------

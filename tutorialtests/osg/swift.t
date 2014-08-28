@@ -96,7 +96,7 @@ stats.sh
   NODE_LABELS=OSG_Connect_Slave
   NODE_NAME=OSG_Connect_Slave
   PATH=* (glob)
-  PWD=/var/lib/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests/tutorial-swift
+  PWD=/home/jenkins/workspace/OSG_Connect_Tests/OSG_Connect_Swift/unit-tests/tutorial-swift
   QTDIR=* (glob)
   QTINC=* (glob)
   QTLIB=* (glob)

@@ -2,8 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 Prologue
 --------
-  $ cd ${TESTDIR}/../..
-  $ cd tutorial-oasis_parrot
+  $ cd ${TESTDIR}/../../tutorial-oasis_parrot
 
 myapp.sh 
 --------
@@ -38,7 +37,7 @@ make run_job.py wrapper
 HTCondor job
 ------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run oasis.submit through condor
   $ ./run_and_wait.sh oasis.submit
