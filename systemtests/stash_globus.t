@@ -1,6 +1,6 @@
 verify transfers succeeded
 -------------------------
-  $ cd ~/workspace/OSG_Connect_Tests/Stash_Globus/unit-tests
+  $ cd ${TESTDIR}
 
   $ cat gb_to_stash.txt | head -2
   Task ID: * (glob)

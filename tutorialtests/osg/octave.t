@@ -1,6 +1,6 @@
 1;2cPrologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-octave .
+  $ cp -a ${TESTDIR}/../../tutorial-octave .
   $ cd tutorial-octave
 
 Software setup
@@ -58,7 +58,7 @@ ensure we can still run the code via the wrapper
 HTCondor job
 ------------
 Copy some extra utilities to the unit test directory
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp ${TESTDIR}/../../run_and_wait.sh .
 
 run octave.submit through condor
   $ ./run_and_wait.sh octave.submit

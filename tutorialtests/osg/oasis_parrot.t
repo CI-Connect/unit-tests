@@ -2,7 +2,7 @@ Note: must run on osgconnect to access user's stash
 
 Prologue
 --------
-  $ cd ${TESTDIR}
+  $ cd ${TESTDIR}/../..
   $ cd tutorial-oasis_parrot
 
 myapp.sh 
