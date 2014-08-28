@@ -1,6 +1,6 @@
 Prologue
 --------
-  $ cp -a ${TESTDIR}/tutorial-htcondor_transfer .
+  $ cp -a ${TESTDIR}/../tutorial-htcondor_transfer .
   $ cd tutorial-htcondor_transfer
 
 example code
