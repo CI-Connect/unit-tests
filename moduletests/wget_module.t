@@ -5,7 +5,7 @@ Prologue
 Edit script
 -----------
   $ sed 's/+ProjectName/#+ProjectName/' check_wget.submit > check_wget.new
-  $ sed 's;/tmp/check_wget/results.log;log;' check_wget.new > check_wget.new2
+  $ sed 's;/tmp/check_wget;.;' check_wget.new > check_wget.new2
   $ mv check_wget.new2 check_wget.submit
 
 Run test job
