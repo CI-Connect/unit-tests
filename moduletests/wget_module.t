@@ -2,6 +2,11 @@ Prologue
 --------
   $ cd ${TESTDIR}/wget
 
+Edit script
+-----------
+  $ sed 's/+ProjectName/#+ProjectName/' check_wget.submit > check_wget.new
+  $ mv check_wget.new check_wget.submit
+
 Run test job
 ------------
 Copy some extra utilities to the unit test directory
