@@ -9,7 +9,7 @@ Edit scripts
   $ cat	check_python.new2 | head -9 > check_python.new3
   $ mv check_python.new3 check_python.submit
   $ echo >> check_python.submit
-  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\&/" check_python.submit
+  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)/" check_python.submit
   $ echo >> check_python.submit
   $ sed -i "11s/$/queue 25/" check_python.submit
 
