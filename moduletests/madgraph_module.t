@@ -9,7 +9,7 @@ Edit script
   $ cat check_madgraph.new2 | head -10 > check_madgraph.new3
   $ mv check_madgraph.new3 check_madgraph.submit
   $ echo >> check_madgraph.submit
-  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)" check_madgraph.submit
+  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)/" check_madgraph.submit
   $ echo >> check_madgraph.submit
   $ sed -i "12s/$/queue 25/" check_madgraph.submit
 
