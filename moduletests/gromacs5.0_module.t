@@ -1,6 +1,6 @@
 Prologue
 --------
-  $ cd ${TESTDIR}/gromacs/4.6.5
+  $ cd ${TESTDIR}/gromacs/5.0
 
 Edit script
 -----------
