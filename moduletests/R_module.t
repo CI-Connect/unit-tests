@@ -9,7 +9,7 @@ Edit script
   $ cat check_R.new2 | head -10 > check_R.new3
   $ mv check_R.new3 check_R.submit
   $ echo >> check_R.submit
-  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_R.submit
+  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == TRUE) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_R.submit
   $ echo >> check_R.submit
   $ sed -i "12s/$/queue 25/" check_R.submit
 
