@@ -8,7 +8,9 @@ Edit script
   $ sed 's;/tmp/check_octave;.;' check_octave.new > check_octave.new2
   $ cat check_octave.new2 | head -10 > check_octave.new3
   $ mv check_octave.new3 check_octave.submit
-  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_octave.submit
+  $ echo >> check_octave.submit
+  $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\& (OpSys == "LINUX" \&\& OpSysMajorVer == 6)/" check_octave.submit
+  $ echo >> check_octave.submit
   $ sed -i "12s/$/queue 25/" check_octave.submit
 
 Run test job

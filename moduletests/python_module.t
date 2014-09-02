@@ -8,7 +8,9 @@ Edit scripts
   $ sed 's;/tmp/check_python;.;' check_python.new > check_python.new2
   $ cat	check_python.new2 | head -9 > check_python.new3
   $ mv check_python.new3 check_python.submit
-  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_python.submit
+  $ echo >> check_python.submit
+  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\& (OpSys == "LINUX" \&\& OpSysMajorVer == 6)/" check_python.submit
+  $ echo >> check_python.submit
   $ sed -i "11s/$/queue 25/" check_python.submit
 
   $ sed 's/+ProjectName/#+ProjectName/' check_python_modules.submit > check_python_modules.new
@@ -16,9 +18,9 @@ Edit scripts
   $ sed 's;ShouldTransferFiles = NO;ShouldTransferFiles = YES;' check_python_modules.new2 > check_python_modules.new3
   $ cat	check_python_modules.new3 | head -9 > check_python_modules.new4
   $ mv check_python_modules.new4 check_python_modules.submit
-  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opens
-ciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_py
-thon_modules.submit
+  $ echo >> check_python_modules.submit
+  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\& (OpSys == "LINUX" \&\& OpSysMajorVer == 6)/" check_python_modules.submit
+  $ echo >> check_python_modules.submit
   $ sed -i "11s/$/queue 25/" check_python_modules.submit
 
 Run test job

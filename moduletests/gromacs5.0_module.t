@@ -9,7 +9,7 @@ Edit script
   $ cat check_gromacs.new2 | head -11 > check_gromacs.new3
   $ mv check_gromacs.new3 check_gromacs.submit
   $ echo >> check_gromacs.submit
-  $ sed -i "12s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_gromacs.submit
+  $ sed -i "12s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\& (OpSys == "LINUX" \&\& OpSysMajorVer == 6)/" check_gromacs.submit
   $ echo >> check_gromacs.submit
   $ sed -i "13s/$/queue 25/" check_gromacs.submit
 

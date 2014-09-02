@@ -9,7 +9,7 @@ Edit script
   $ cat check_curl.new2 | head -9 > check_curl.new3
   $ mv check_curl.new3 check_curl.submit
   $ echo >> check_curl.submit
-  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) && (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) && (OpSys == "LINUX" && OpSysMajorVer == 6)/" check_curl.submit
+  $ sed -i "10s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE) \&\& (OpSys == "LINUX" \&\& OpSysMajorVer == 6)/" check_curl.submit
   $ echo >> check_curl.submit
   $ sed -i "11s/$/queue 25/" check_curl.submit
 
