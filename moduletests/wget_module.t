@@ -7,6 +7,10 @@ Edit script
   $ sed 's/+ProjectName/#+ProjectName/' check_wget.submit > check_wget.new
   $ sed 's;/tmp/check_wget;.;' check_wget.new > check_wget.new2
   $ mv check_wget.new2 check_wget.submit
+  $ sed -i "10s/$/queue 25/" check_wget.submit
+
+  $ cat check_wget.submit | head -10 > check_wget.new3
+  $ mv check_wget.new3 check_wget.submit
 
 Run test job
 ------------
