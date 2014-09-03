@@ -1,12 +1,16 @@
 Prologue
 --------
+  $ pwd
   $ cd ${TESTDIR}
+  $ pwd
   $ cp -a ${TESTDIR}/../tutorial-htcondor_transfer .
+  $ pwd
+  $ ls
   $ cd tutorial-htcondor_transfer
+  $ ls 
 
 example code
 ------------
-
   $ cat random_words | ./distribution
   Val        |Ct (Pct)   Histogram
   Ashkenazim |45 (0.44%) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -28,6 +32,9 @@ example code
 Add Requirement line
 --------------------
   $ sed -i "11s/$/Requirements = ( regexp("^uc3.*", TARGET.Machine,"IM") == True )/" transfer.submit
+  $ pwd
+  $ ls
+  $ cat transfer.submit
 
 HTCondor job
 ------------
