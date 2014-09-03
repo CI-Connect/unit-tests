@@ -52,7 +52,7 @@ verify output
 
 larger submission 
 -----------------
-  $ cd ~/workspace/OSG_Connect_Pegasus/unit-tests/tutorial-pegasus/wordfreq-workflow
+  $ cd ~/workspace/OSG_Connect_Tests/OSG_Connect_Pegasus/unit-tests/tutorial-pegasus/wordfreq-workflow
   $ cp many-more-inputs/* inputs
 
 Allow Pegasus to cluster up to 50 tasks in each job
