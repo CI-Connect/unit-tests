@@ -57,3 +57,5 @@ The following tests ensure that users can submit jobs to the respective campus c
 duke_bluedevil.t - Unit test checking that users can submit jobs to Duke University's Blue Devil cluster. The complete Jenkins build information for the test can be found [here](http://build.ci-connect.net:8080/job/Duke_Connect_Tests/job/Duke_BlueDevilCluster/).
 
 syracuse.t - Unit test checking that users can submit jobs to Syracuse University's cluster. The complete Jenkins build information for the test can be found [here](http://build.ci-connect.net:8080/job/OSG_Connect_Tests/job/Syracuse_Test/).
+
+uchicago_uc3.t - Unit test checking that users can submit jobs from RCC Connect to the uc3 target resource. The complete Jenkins build information for the test can be found [here](http://build.ci-connect.net:8080/job/UChicago_Connect_Tests/job/Target_UC3/).
