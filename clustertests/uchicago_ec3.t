@@ -1,13 +1,8 @@
 Prologue
 --------
-  $ pwd
   $ cd ${TESTDIR}
-  $ pwd
   $ cp -a ${TESTDIR}/../tutorial-htcondor_transfer .
-  $ pwd
-  $ ls
   $ cd tutorial-htcondor_transfer
-  $ ls 
 
 example code
 ------------
@@ -31,9 +26,7 @@ example code
 
 Add Requirement line
 --------------------
-  $ sed -i "11s/$/Requirements = ( regexp("^uc3.*", TARGET.Machine,"IM") == True )/" transfer.submit
-  $ pwd
-  $ ls
+  $ sed -i "11s/$/Requirements = ( regexp(\"^uc3.*\", TARGET.Machine,\"IM\") == True )/" transfer.submit
   $ cat transfer.submit
 
 HTCondor job
