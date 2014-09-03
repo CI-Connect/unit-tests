@@ -26,7 +26,11 @@ example code
 
 Add Requirement line
 --------------------
+  $ pwd
+
   $ sed -i "11s/$/Requirements = ( regexp("^uc3.*", TARGET.Machine,"IM") == True )/" transfer.submit
+
+  $ pwd
 
 HTCondor job
 ------------
