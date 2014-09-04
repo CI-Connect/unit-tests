@@ -8,9 +8,9 @@ Software setup
   $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
   $ palmsdosetup R
   $ R --version
-  R version 3.0.1 (2013-05-16) -- "Good Sport"
+  R version 3.0.* (glob)
   Copyright (C) 2013 The R Foundation for Statistical Computing
-  Platform: x86_64-unknown-linux-gnu (64-bit)
+  Platform: x86_64* (glob)
   
   R is free software and comes with ABSOLUTELY NO WARRANTY.
   You are welcome to redistribute it under the terms of the
