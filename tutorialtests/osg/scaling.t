@@ -28,9 +28,9 @@ run short.sh with parameters:
 
 Python files
 ------------
-get NumPy via cvmfs
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
-  $ palmsdosetup anaconda
+get NumPy via modules
+  $ source source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
+  $ module load python/3.4
 
   $ ./SDE.py
   Traceback (most recent call last):
