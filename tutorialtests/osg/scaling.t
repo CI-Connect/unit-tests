@@ -29,7 +29,7 @@ run short.sh with parameters:
 Python files
 ------------
 get NumPy via modules
-  $ source source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
+  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
   $ module load python/3.4
 
   $ ./SDE.py
