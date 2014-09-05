@@ -5,11 +5,11 @@ prologue
 
 Software setup
 ---------------
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup
-  $ palmsdosetup R
+  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
+  $ module load R
   $ R --version
-  R version 3.0.* (glob)
-  Copyright (C) 2013 The R Foundation for Statistical Computing
+  R version 3.* (glob)
+  Copyright (C) 2014 The R Foundation for Statistical Computing
   Platform: x86_64* (glob)
   
   R is free software and comes with ABSOLUTELY NO WARRANTY.
