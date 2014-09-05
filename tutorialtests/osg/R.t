@@ -5,7 +5,6 @@ prologue
 
 Software setup
 ---------------
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash && module load R
   $ R --version
   R version 3.* (glob)
   Copyright (C) 2014 The R Foundation for Statistical Computing
