@@ -6,7 +6,7 @@
 Software setup
 -------------
 
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
+  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/sh
   $ module load fftw/3.3.4 atlas lapack hdf5 qhull pcre SparseSuite glpk 
   $ module load octave
   $ octave --version
