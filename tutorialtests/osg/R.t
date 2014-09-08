@@ -25,12 +25,6 @@ ensure that the probable still happens :)
   $ Rscript --no-save mcpi.R
   [1] 3.* (glob)
 
-edit wrapper
-------------
-  $ sed 's;source /cvmfs/oasis.opensciencegrid.org/osg/palms/setup;source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/sh;' R-wrapper.sh > R-wrapper.new
-  $ sed 's;palmsdosetup R;module load R;' R-wrapper.new > R-wrapper.new1
-  $ mv R-wrapper.new1 R-wrapper.sh
-  $ chmod +x R-wrapper.sh
 
 wrapper script
 --------------
