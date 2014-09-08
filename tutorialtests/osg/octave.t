@@ -29,8 +29,7 @@ example code
 ------------
 make sure octave file works by checking part of output
   $ octave ex1_matrix.octave | tail -43 | head -5
-  warning: X11 DISPLAY environment variable not set
-  warning: readline is not linked, so history control is not available
+  warning: * (glob)
   ans =
   
      *.* ? *.*i (glob)
