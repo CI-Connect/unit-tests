@@ -5,7 +5,7 @@ prologue
 
 Software setup
 ---------------
-  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/bash
+  $ source /cvmfs/oasis.opensciencegrid.org/osg/modules/lmod/5.6.2/init/sh
   $ module load R
   $ R --version
   R version 3.* (glob)
