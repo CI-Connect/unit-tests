@@ -26,7 +26,7 @@ example code
 
 Add Requirement line
 --------------------
-  $ sed -i "11s/$/IS_GLIDEIN = True/" transfer.submit
+  $ sed -i "11s/$/REQUIREMENTS = IS_GLIDEIN == True/" transfer.submit
 
 HTCondor job
 ------------
