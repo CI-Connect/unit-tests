@@ -13,20 +13,7 @@ ROOT
 inspector
 ---------
   $ wget -q --no-check-certificate http://stash.osgconnect.net/+jenkins/ex1.root
-  $ ./inspector ex1.root | head -10
-  Warning in <TClass::TClass>: no dictionary for class pair<string,string> is available
-  2
-  CollectionTree:6290:132131:6
-  EventNumber\t17671 (esc)
-  RunNumber\t248 (esc)
-  StreamAOD_ref\t9131 (esc)
-  StreamESD_ref\t50859 (esc)
-  StreamRDO_ref\t9131 (esc)
-  Token\t45091 (esc)
-  physics:6290:714067858:8543
-  EF_2b35_loose_3j35_a4tchad_4L1J15\t3498 (esc)
-  
-   *** Break *** write on a pipe with no one to read it
+
 wrapper.sh
 ----------
 replace ROOT-FILE with example root file name
