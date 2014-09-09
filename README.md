@@ -66,12 +66,12 @@ Module tests
 ------------
 The following tests ensure that users can access specific modules in the [OSG Distributed Environment Modules](https://confluence.grid.iu.edu/display/CON/Distributed+Environment+Modules). The tested module is the name of the unit test file. The complete Jenkins build information for these tests can be found [here](http://build.ci-connect.net:8080/job/UChicago_Connect_Tests/view/Module_Tests/).
 
-  *R_module.t
-  *curl_module.t
-  *gromacs4.6.5_module.t
-  *gromacs5.0_module.t
-  *madgraph_module.t
-  *octave_module.t
-  *python_module.t
-  *wget_module.t 
+  * R_module.t
+  * curl_module.t
+  * gromacs4.6.5_module.t
+  * gromacs5.0_module.t
+  * madgraph_module.t
+  * octave_module.t
+  * python_module.t
+  * wget_module.t 
 
