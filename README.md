@@ -1,7 +1,8 @@
 Unit tests
 ==========
 
-This repository contains unit tests for OSG Connect tutorials and system status tests for various Connects (OSG Connect, Duke Connect, UChicago Connect, etc.) 
+This repository contains unit tests for OSG Connect tutorials and system status tests for various Connects (OSG Connect, Duke Connect, RCC Connect, etc.) 
+
 These unit tests perform the following functions:
   1. Ensure that the OSG Connect job submission infrastructure is working properly
   2. Ensure that our tutorials are up to date with the latest features of OSG Connect. All of the tutorials can be found in the [OSG ConnectBook](https://confluence.grid.iu.edu/display/CON/Home).
