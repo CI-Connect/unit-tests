@@ -36,11 +36,6 @@ ensure we can still run the code via the wrapper
   $ ./R-wrapper.sh mcpi.R
   [1] 3.* (glob)
 
-edit submit file
-----------------
-  $ sed 's;+ProjectName;#+ProjectName;' R.submit > new.submit
-  $ mv new.submit R.submit
-
 HTCondor job
 -------------
 Copy some extra utilities to the unit test directory
