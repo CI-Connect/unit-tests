@@ -6,8 +6,7 @@ Edit script
 -----------
   $ sed 's/+ProjectName/#+ProjectName/' check_madgraph.submit > check_madgraph.new
   $ sed 's;/tmp/check_madgraph;.;' check_madgraph.new > check_madgraph.new2
-  $ cat check_madgraph.new2 | head -10 > check_madgraph.new3
-  $ sed 's;+ProjectName;#+ProjectName;' check_madgraph.new3 > check_madgraph.submit
+  $ cat check_madgraph.new2 | head -10 > check_madgraph.submit
   $ echo >> check_madgraph.submit
   $ sed -i "11s/$/Requirements = (IS_GLIDEIN == True) \&\& (HAS_CVMFS_oasis_opensciencegrid_org =?= TRUE)/" check_madgraph.submit
   $ echo >> check_madgraph.submit
