@@ -32,11 +32,15 @@ run check_python.submit through condor
   All jobs done.
 
   $ cat results.out* | grep Error
+  [1]
   $ cat results.out* | grep ERROR
+  [1]
 
 run check_python_modules.submit through condor
   $ ./run_and_wait.sh check_python_modules.submit
   All jobs done.
 
   $ cat results.out* | grep Error
+  [1]
   $ cat results.out* | grep ERROR
+  [1]

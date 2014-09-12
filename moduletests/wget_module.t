@@ -25,4 +25,6 @@ run check_wget.submit through condor
 Check output
 ------------
   $ cat results.out* | grep Error
+  [1]
   $ cat results.out* | grep ERROR
+  [1]
