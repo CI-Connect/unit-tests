@@ -21,3 +21,8 @@ Copy some extra utilities to the unit test directory
 run check_R.submit through condor
   $ ./run_and_wait.sh check_R.submit
   All jobs done.
+
+Check output
+------------
+  $ cat results.out* | grep Error
+  $ cat results.out* | grep ERROR

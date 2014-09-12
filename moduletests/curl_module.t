@@ -21,3 +21,8 @@ Copy some extra utilities to the unit test directory
 run check_curl.submit through condor
   $ ./run_and_wait.sh check_curl.submit
   All jobs done.
+
+Check output
+------------
+  $ cat results.out* | grep Error
+  $ cat results.out* | grep ERROR

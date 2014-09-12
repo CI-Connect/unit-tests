@@ -33,6 +33,12 @@ run check_python.submit through condor
   $ ./run_and_wait.sh check_python.submit
   All jobs done.
 
+  $ cat results.out* | grep Error
+  $ cat results.out* | grep ERROR
+
 run check_python_modules.submit through condor
   $ ./run_and_wait.sh check_python_modules.submit
   All jobs done.
+
+  $ cat results.out* | grep Error
+  $ cat results.out* | grep ERROR
