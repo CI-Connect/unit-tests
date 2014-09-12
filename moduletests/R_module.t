@@ -23,7 +23,7 @@ run check_R.submit through condor
 
 Check output
 ------------
-  $ cat results.out* | grep Error
+  $ head -6 results.out* | grep Error
   [1]
-  $ cat results.out* | grep ERROR
+  $ head -6 results.out* | grep ERROR
   [1]
